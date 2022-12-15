@@ -1,0 +1,96 @@
+:root {
+    --background: rgba(255, 255, 255, 0.1);
+    --color: #b0bbc7;
+    --color2: rgba(255, 255, 255, 0.75);
+    --primary-rgb: 77, 238, 234;
+    --background-rgb: 18, 55, 61;
+    --main-gradient-bg: radial-gradient(
+      circle,
+      rgb(var(--background-rgb)) 0%,
+      #121923,
+      #121923 100%
+
+    );
+    --secondary-rgb: 249, 248, 113;
+}
+
+body{
+    background: radial-gradient(circle, rgb(var(--background-rgb)) 0%, #121923, #121923 100%);;
+}
+
+.bg_clr{
+    background: radial-gradient(circle, rgb(var(--background-rgb)) 0%, #121923, #121923 100%) !important;
+}
+.MuiBox-root {
+    background: radial-gradient(circle, rgb(var(--background-rgb)) 0%, #121923, #121923 100%) !important;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: #b0bbc7;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: transparent !important;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+.card:before {
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 1px;
+    top: 0;
+    background: linear-gradient(45deg, transparent, var(--primary03), var(--primary06), var(--primary06), var(--primary03), transparent);
+    inset-inline-start: 10%;
+    box-shadow: 0 8px 17px 0px var(--primary-bg-color);
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    /* color: #212529; */
+    /* background-color: #fff; */
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.input-group-text{
+    background-color: transparent !important;
+    color: white !important;
+}
+
+
+.sisis{
+    display: flex;
+    height:auto !important;
+
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+}
+
+
+.react_progress{
+    background-color:#fdfd80 !important ;
+}
+.horizontalMenucontainer{
+    width: 100% !important;
+}
+
+
+.text_clr{
+    color: #FFFFFFCC !important;
+}

@@ -1,0 +1,176 @@
+.css-1hsz34s-MuiDrawer-docked .MuiDrawer-paper{
+    background: radial-gradient(circle, rgb(var(--background-rgb)) 0%, #121923, #121923 100%) !important;
+    color: white !important;
+}
+.MuiBox-root {
+    background: radial-gradient(circle, rgb(var(--background-rgb)) 0%, #121923, #121923 100%) !important;
+}
+.MuiSvgIcon-root {
+    color: white !important;
+}
+.MuiPaper-root {
+    background: radial-gradient(circle, rgb(var(--background-rgb)) 0%, #121923, #121923 100%) !important;
+
+}
+
+.accordion-button{
+    background-color: transparent !important;
+color: rgba(77, 238, 234) !important;
+border: none !important;
+outline: none !important;
+}
+
+
+.drawer_side_headding{
+    color: rgba(77, 238, 234) !important;
+    font-size: 12px !important;
+    padding-left: 20px !important; 
+}
+
+.acc_heading{
+    font-size: 14px !important;
+    /* color: red !important; */
+}
+
+
+.logo_header{
+    width: 40% !important;
+    margin-left: -1rem;
+}
+.Menu_icons{
+    text-align: center;
+    line-height: 1.8;
+    font-size: 1.3rem;
+    color: rgba(77, 238, 234);
+    filter: drop-shadow(0 2px 50px rgba(77, 238, 234)) !important;
+    -webkit-filter: drop-shadow(0px 2px 5px rgba(77, 238, 234)) !important;
+}
+.acc_links{
+    color: rgba(77, 238, 234,0.5) !important;
+    /* font-size: 8px !important; */
+    text-align: left !important;
+    padding-left: 20px !important;
+}
+
+.acc_links:hover{
+    color: rgb(32, 255, 251) !important ;
+}
+.main_header{
+    background: radial-gradient(circle, rgb(var(--background-rgb)) 0%, #121923, #121923 100%) !important;
+
+}
+
+
+.search_buttton{
+    background-color: rgba(77, 238, 234) !important;
+}
+.apexcharts-legend.apx-legend-position-right{
+    display: none !important;
+}
+
+
+.main_table_th{
+    background-color: transparent !important;
+    border: 1px solid rgb(77, 238, 234,0.1) !important;
+   
+}
+.react_Tr{
+    border-bottom: 1px solid rgb(77, 238, 234,0.1) !important;
+}
+.main_table_react{
+    border: 1px solid rgb(77, 238, 234,0.1) !important;
+}
+
+.header_breadcrum{
+text-decoration: none;
+color: #B0bbc7 !important;
+}
+.header_breadcrum:hover{
+    color: #B0bbc7 !important;
+
+}
+
+.g_clr{
+    color:rgba(32, 255, 251) !important ;
+}
+
+
+
+
+.accordion-button::after {
+    flex-shrink: 0;
+   display: none;
+    margin-left: auto;
+    content: "";
+    background-image: url(../Assets/arr_rig.png) !important; 
+    
+ background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../Assets/arr_rig.png) !important; 
+
+    /* background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e); */
+    transform: rotate(90deg);
+}
+
+.main_Ative_history{
+    height: 100vh !important;
+}
+
+@media screen and (max-width:769px) {
+    .fullscreen{
+        display: none;
+    }
+
+    .Br_ps{
+        padding-left: 10px !important;
+    }
+
+    .res_Ponsive_mt{
+        margin-top: 10px !important;
+    }
+    .main_table_react{
+        overflow-x: scroll !important;
+    }
+    .css-zxdg2z{
+        padding: 0px !important;
+    }
+    .res_ponsive_button{
+        padding-left:15px !important ;
+        padding-right: 15px !important;
+    }
+    .img_full{
+        display: none !important;
+    }
+    .main_Ative_history{
+    height: 200vh !important;
+}
+.res_ponsive_fs{
+    font-size: 14px !important;
+}
+.apex_chart{
+    width: 200px !important;
+}
+
+.react_tree{
+    overflow-x: scroll !important;
+    width: 300px !important;
+}
+
+
+.react_table_responisve{
+    width: 250px !important;
+    overflow-x: scroll !important;
+}
+    
+}
+
+@media (min-width:770px) and (max-width:6000px) {
+    .smallScreen{
+        display: none;
+    }
+    
+}
