@@ -37,7 +37,7 @@ function Activate_history() {
 <div className=''>
 <Table  data={reward_income.rows}
                     columns={reward_income.cols}
-                    className='red_border'/>
+                    className=''/>
 
 <Table_buttons/>
 </div>
