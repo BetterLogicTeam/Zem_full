@@ -18,8 +18,8 @@ class Donut extends Component {
     return (
       <>
       <div className='d-flex justify-content-center'>
-      <div className="donut">
-        <Chart options={this.state.options} series={this.state.series} type="donut" width="250" />
+      <div className="donut" style={{marginTop:'-20px'}}>
+        <Chart options={this.state.options} series={this.state.series} type="donut" width="280" style={{marginBottom:'15px'}} />
       </div>
       </div>
       </>

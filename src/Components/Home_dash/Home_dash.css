@@ -12,17 +12,39 @@
 
     );
     --secondary-rgb: 249, 248, 113;
+    --primary01: rgba(var(--primary-rgb), 0.1);
+    --primary02: rgba(var(--primary-rgb), 0.2);
+    --primary03: rgba(var(--primary-rgb), 0.3);
+    --primary04: rgba(var(--primary-rgb), 0.4);
+    --primary05: rgba(var(--primary-rgb), 0.5);
+    --primary06: rgba(var(--primary-rgb), 0.6);
+    --primary07: rgba(var(--primary-rgb), 0.7);
+    --primary08: rgba(var(--primary-rgb), 0.8);
+    --primary09: rgba(var(--primary-rgb), 0.9);
+    --primary005: rgba(var(--primary-rgb), 0.05);
 }
 
 body{
-    background: radial-gradient(circle, rgb(var(--background-rgb)) 0%, #121923, #121923 100%);;
+    background: radial-gradient(circle, rgb(var(--background-rgb)) 0%, #121923, #121923 100%) !important;
+    
+    box-shadow: 0 0 5px var(--primary-bg-color);
+    background-color: var(--primary01);
+    background-position: center 64px;
+    background-repeat: no-repeat;
+    /* background: radial-gradient(circle, rgb(var(--background-rgb)) 0%, #121923, #121923 100%);; */
 }
 
 .bg_clr{
-    background: radial-gradient(circle, rgb(var(--background-rgb)) 0%, #121923, #121923 100%) !important;
+    /* background: radial-gradient(circle, rgb(var(--background-rgb)) 0%, #121923, #121923 100%) !important; */
 }
 .MuiBox-root {
     background: radial-gradient(circle, rgb(var(--background-rgb)) 0%, #121923, #121923 100%) !important;
+    
+    box-shadow: 0 0 5px var(--primary-bg-color);
+    background-color: var(--primary01);
+    background-position: center 64px;
+    background-repeat: no-repeat;
+
 }
 
 .card {

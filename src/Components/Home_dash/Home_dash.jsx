@@ -38,10 +38,10 @@ function Home_dash() {
                                           </span>
                                        </div>
                                        <div className="d-block align-items-center mb-2">
-                                          <div className="form-group">
+                                          <div className="form-group border_react">
                                              <div className="input-group mb-0">
-                                                <input type="text" id="myInput2" className="form-control" value="https://www.wusdt.space/registration?referrallink=778899" />
-                                                <span text="button" onclick="myFunction2()" className="input-group-text">Copy</span>
+                                                <input type="text" id="myInput2" className="form-control bg_trans text_clr" value="https://www.wusdt.space/registration?referrallink=778899" />
+                                                <span text="button" onclick="myFunction2()" className="input-group-text text_clr">Copy</span>
                                              </div>
                                           </div>
                                        </div>
@@ -253,7 +253,7 @@ function Home_dash() {
                      <div className="row">
                         <div className="col-md-12">
                            <div className="prgs">
-                              <img src="assets/img/green_logo.png" id="dynamicwidth" width="50px" />
+                              <img src="assets/img/green_logo.png" id="dynamicwidth" className='mb_responsive d-flex justify-content-start' width="50px" />
                               <div id="myProgress">
                                  <div id="myBar" style={{ backgroundColor: 'green' }}></div>
                               </div>
@@ -298,7 +298,7 @@ function Home_dash() {
                                        </div> */}
                                     </div>
                                  </div>
-                                 <div className="d-flex mg-b-15">
+                                 <div className="d-flex mg-b-15 moblie_view">
                                     <div className="me-2"> <span className="avatar avatar-sm radius-4 bg-primary-transparent tx-primary"><i className="fe fe-smartphone"></i></span> </div>
                                     <div className="flex-1">
                                        <div className="flex-between">

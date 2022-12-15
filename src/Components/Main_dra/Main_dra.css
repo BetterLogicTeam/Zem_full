@@ -1,9 +1,9 @@
 .css-1hsz34s-MuiDrawer-docked .MuiDrawer-paper{
-    background: radial-gradient(circle, rgb(var(--background-rgb)) 0%, #121923, #121923 100%) !important;
+    /* background: radial-gradient(circle, rgb(var(--background-rgb)) 0%, #121923, #121923 100%) !important; */
     color: white !important;
 }
 .MuiBox-root {
-    background: radial-gradient(circle, rgb(var(--background-rgb)) 0%, #121923, #121923 100%) !important;
+    /* background: radial-gradient(circle, rgb(var(--background-rgb)) 0%, #121923, #121923 100%) !important; */
 }
 .MuiSvgIcon-root {
     color: white !important;
@@ -67,6 +67,10 @@ outline: none !important;
 .apexcharts-legend.apx-legend-position-right{
     display: none !important;
 }
+.border_react{
+    /* border: 1px solid rgb(77, 238, 234,0.9) !important; */
+    border-radius: 5px !important;
+}
 
 
 .main_table_th{
@@ -119,11 +123,18 @@ color: #B0bbc7 !important;
 .main_Ative_history{
     height: 100vh !important;
 }
+.mb_responsive{
+    margin-bottom: 10px !important;
+}
 
 @media screen and (max-width:769px) {
     .fullscreen{
         display: none;
     }
+.moblie_view{
+    margin-top: 20px !important;
+}
+
 
     .Br_ps{
         padding-left: 10px !important;
