@@ -25,12 +25,12 @@
 }
 
 body{
-    background: radial-gradient(circle, rgb(var(--background-rgb)) 0%, #121923, #121923 100%) !important;
+    /* background: radial-gradient(circle, rgb(var(--background-rgb)) 0%, #121923, #121923 100%) !important; */
     
-    box-shadow: 0 0 5px var(--primary-bg-color);
+    /* box-shadow: 0 0 5px var(--primary-bg-color);
     background-color: var(--primary01);
     background-position: center 64px;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     /* background: radial-gradient(circle, rgb(var(--background-rgb)) 0%, #121923, #121923 100%);; */
 }
 
@@ -38,12 +38,15 @@ body{
     /* background: radial-gradient(circle, rgb(var(--background-rgb)) 0%, #121923, #121923 100%) !important; */
 }
 .MuiBox-root {
-    background: radial-gradient(circle, rgb(var(--background-rgb)) 0%, #121923, #121923 100%) !important;
+    background: radial-gradient(circle, rgb(var(--background-rgb)) 40%, #121923, #121923 150%) !important;
+    background-attachment: scroll;
+    background-repeat: repeat !important;
+    background-color: var(--primary01) !important;
+
+    background-position: center -1000px !important;
     
-    box-shadow: 0 0 5px var(--primary-bg-color);
-    background-color: var(--primary01);
-    background-position: center 64px;
-    background-repeat: no-repeat;
+  
+ 
 
 }
 
@@ -58,6 +61,7 @@ body{
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
+    box-shadow: inset 0px -1px 12px 3px rgb(255 255 255 / 5%) !important;
 }
 .card:before {
     position: absolute;

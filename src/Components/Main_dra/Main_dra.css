@@ -9,7 +9,7 @@
     color: white !important;
 }
 .MuiPaper-root {
-    background: radial-gradient(circle, rgb(var(--background-rgb)) 0%, #121923, #121923 100%) !important;
+    background: radial-gradient(circle, rgb(var(--background-rgb)) 50%, #121923, #121923 100%) !important;
 
 }
 
@@ -56,7 +56,7 @@ outline: none !important;
     color: rgb(32, 255, 251) !important ;
 }
 .main_header{
-    background: radial-gradient(circle, rgb(var(--background-rgb)) 0%, #121923, #121923 100%) !important;
+    /* background: radial-gradient(circle, rgb(var(--background-rgb)) 50%, #121923, #121923 100%) !important; */
 
 }
 

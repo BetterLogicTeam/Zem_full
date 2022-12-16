@@ -10,15 +10,15 @@ body{
 
 .MuiAppBar-colorPrimary{
 
-    background: radial-gradient(circle, rgb(var(--background-rgb)) 0%, #121923, #121923 100%) !important;
+    /* background: radial-gradient(circle, rgb(var(--background-rgb)) 0%, #121923, #121923 100%) !important; */
     
 }
 .makeStyles-drawerOpen-7{
-    background: radial-gradient(circle, rgb(var(--background-rgb)) 0%, #121923, #121923 100%) !important;
+    /* background: radial-gradient(circle, rgb(var(--background-rgb)) 0%, #121923, #121923 100%) !important; */
 } 
 
 .makeStyles-drawerClose-8 {
-    background: radial-gradient(circle, rgb(var(--background-rgb)) 0%, #121923, #121923 100%) !important;
+    /* background: radial-gradient(circle, rgb(var(--background-rgb)) 0%, #121923, #121923 100%) !important; */
 }
 
 .MuiTypography-body1 

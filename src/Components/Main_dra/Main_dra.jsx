@@ -148,7 +148,7 @@ function Main_dra({ ...props }) {
 
   return (
     <div>
-      <Box sx={{ display: 'flex' }}>
+      <Box sx={{ display: 'flex' }} >
         <CssBaseline />
         <AppBar position="fixed" open={open}>
           <Toolbar>
@@ -577,7 +577,7 @@ function Main_dra({ ...props }) {
           </Accordion>
         </Drawer>
 
-        <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
+        <Box component="" sx={{ flexGrow: 1, p: 3 }}>
           <DrawerHeader />
           {/* <BrowserRouter> */}
 
