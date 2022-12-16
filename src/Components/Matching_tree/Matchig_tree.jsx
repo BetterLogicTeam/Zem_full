@@ -13,7 +13,7 @@ function Matchig_tree() {
                     <span className="main-content-title mg-b-0 mg-b-lg-1">Matching Tree </span>
                 </div>
                 <div className="justify-content-center mt-2">
-                    <ol className="breadcrumb breadcrumb-style3">
+                    <ol className="breadcrumb breadcrumb-style3 Br_ps">
                         <li className="breadcrumb-item tx-15">
                             <a href="javascript:void(0)"  className='header_breadcrum'>Team Details </a>
                         </li>
@@ -59,7 +59,7 @@ function Matchig_tree() {
             </div>
             <div className="row m-0  p-0">
                 <div className="col-md-12 col-12 p-0  ">
-                    <div className="card react_tree">
+                    <div className="card responsive_margin react_tree">
                         <div id="tree" className="treeview " style={{margin: '40px auto'}}>
                             <div className="treemember">
                                 <div className="dropdown">

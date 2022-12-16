@@ -23,8 +23,8 @@ function WithDrawal() {
             {/* <!-- /breadcrumb --> */}
            
             <div className="col-12 d-flex justify-content-center py-5">
-                <div className="col-md-6 col-lg-5 col-xxl-4 col-12 width-mg card1">
-                    <div className="d-flex flex-column align-items-center profile-border profile-login  py-4 shadow-withdraw" id="withdraw-inp">
+                <div className="col-md-6 col-lg-5 col-xxl-4 col-12 width-mg react_card_widthdrawal card1">
+                    <div className="d-flex flex-column align-items-center  profile-login  py-4 shadow-withdraw" id="withdraw-inp">
                         <h2 className="h-color col-12 py-2 px-4 border_bottom text_clr res_ponsive_fs">Registration Withdrawal</h2>
                         <div className="col-11 mt-3 row align-items-center text_clr res_ponsive_fs"><p className="col-5 m-0 p-0 text_clr">Wallet Net USD Value</p>
                             <input type="text" className="p-2 profile-border col-7" value="0"/></div>

@@ -22,7 +22,7 @@ function Nft_adress() {
                 </div>
             </div>
             {/* <!-- /breadcrumb --> */}
-            <h5 className="mt-5 text-clr text-start text-truncate"> Address : <a href="https://tronscan.org/#/contract/TW4FkjhirQG3ZPi8neDBtVmiyL6uMULVse" className="Txn_here react_txn_here" target="_blank">TW4FkjhirQG3ZPi8neDBtVmiyL6uMULVse</a> 
+            <h5 className="mt-5 text-clr text-start text_responsive  text-truncate   px-1 px-md-0  "> Address : <a href="https://tronscan.org/#/contract/TW4FkjhirQG3ZPi8neDBtVmiyL6uMULVse" className="Txn_here react_txn_here " target="_blank">TW4FkjhirQG3ZPi8neDBtVmiyL6uMULVse</a> 
              </h5>
             {/* <!-- row closed --> */}
           </div>

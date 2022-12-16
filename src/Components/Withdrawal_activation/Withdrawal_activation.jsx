@@ -25,7 +25,7 @@ function Withdrawal_activation() {
            
             <div className="col-12 d-flex justify-content-center py-5">
                 <div className="col-md-6 col-lg-5 col-xxl-4 col-10 width-mg  card1">
-                    <div className="d-flex flex-column align-items-center profile-border profile-login  py-4 shadow-withdraw" id="withdraw-inp">
+                    <div className="d-flex flex-column align-items-center  profile-login  py-4 shadow-withdraw" id="withdraw-inp">
                         <h2 className="h-color col-12 py-2 px-4 border_bottom text-clr">Activation Withdrawal</h2>
                         <div className="col-11 mt-3 row align-items-center">
                             <p className="col-5 m-0 p-0 text-clr">Wallet Net USD Value</p>
