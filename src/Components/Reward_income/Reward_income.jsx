@@ -24,7 +24,7 @@ function Reward_income() {
         <div className="p-0 container-fluid m-0">
             {/* <!-- breadcrumb --> */}
             <div className="breadcrumb-header justify-content-between">
-                <div className="left-content">
+                <div className="left-content respon_aligment">
                     <span className="main-content-title mg-b-0 mg-b-lg-1">Daily Yield </span>
                 </div>
                 <div className="justify-content-center mt-2">

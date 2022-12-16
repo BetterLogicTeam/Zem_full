@@ -25,7 +25,7 @@ function WithDrawal_history() {
         <div className="p-0 m-0 container-fluid">
             {/* <!-- breadcrumb --> */}
             <div className="breadcrumb-header justify-content-between">
-                <div className="left-content">
+                <div className="left-content respon_aligment">
                     <span className="main-content-title mg-b-0 mg-b-lg-1">Registration Withdrawal History </span>
                 </div>
                 <div className="justify-content-center mt-2">

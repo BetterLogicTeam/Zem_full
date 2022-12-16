@@ -25,7 +25,7 @@ function Registration_level_income() {
         <div className=" m-0 container-fluid p-0">
             {/* <!-- breadcrumb --> */}
             <div className="breadcrumb-header justify-content-between">
-                <div className="left-content">
+                <div className="left-content respon_aligment">
                     <span className="main-content-title mg-b-0 mg-b-lg-1">Daily Yield </span>
                 </div>
                 <div className="justify-content-center mt-2">
