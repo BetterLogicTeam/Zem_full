@@ -45,9 +45,9 @@ function Active() {
                                                 <div className="popup_net">
                                                     <br/>
                                                     <div className="addNum">
-                                                        <div className="trxnumber"><input type="text" readonly="" id="txtamount2" className="form5" value="0"/><span>USD</span></div>
-                                                        <div className="trxnumber"><input type="text" readonly="" id="txtTokenvalue2" className="form5" placeholder="0 ULE"/><span>ULE Value</span></div>
-                                                        <div className="trxnumber"><input type="text" readonly="" id="txtTronvalue2" className="form5" placeholder="0 Tron" value=""/><span style={{fontSize:'13px'}}>TRON Value</span></div>
+                                                        <div className="trxnumber"><input type="text" readonly="" id="txtamount2" className="form5" value="0"/><span className='responsive_clr'>USD</span></div>
+                                                        <div className="trxnumber"><input type="text" readonly="" id="txtTokenvalue2" className="form5" placeholder="0 ULE"/><span className='responsive_clr'>ULE Value</span></div>
+                                                        <div className="trxnumber"><input type="text" readonly="" id="txtTronvalue2" className="form5" placeholder="0 Tron" value=""/><span className='responsive_clr' style={{fontSize:'13px'}}>TRON Value</span></div>
                                                         <div className="numbtn"><button className="btn-ip-1">+ 100$</button><button className="btn-ip-1">+ 500$</button><button className="btn-ip-1">+ 1000$</button><button className="btn-ip-1 button">Reset</button></div>
                                                         <input type="hidden" id="packageamount" name="name" autocomplete="off"/>
                                                     </div>

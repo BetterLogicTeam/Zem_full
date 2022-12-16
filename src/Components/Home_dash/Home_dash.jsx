@@ -41,7 +41,7 @@ function Home_dash() {
                                           <div className="form-group border_react">
                                              <div className="input-group mb-0">
                                                 <input type="text" id="myInput2" className="form-control bg_trans text_clr" value="https://www.wusdt.space/registration?referrallink=778899" />
-                                                <span text="button" onclick="myFunction2()" className="input-group-text text_clr">Copy</span>
+                                                <span text="button"  className="input-group-text text_clr" >Copy</span>
                                              </div>
                                           </div>
                                        </div>
