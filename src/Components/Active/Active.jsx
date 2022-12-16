@@ -44,7 +44,7 @@ function Active() {
                                                 <span className="metamaskConnection text-success text-center">Please login or install tron wallet!</span>
                                                 <div className="popup_net">
                                                     <br/>
-                                                    <div className="addNum">
+                                                    <div className="addNum responsi_alignment_iphone">
                                                         <div className="trxnumber"><input type="text" readonly="" id="txtamount2" className="form5" value="0"/><span className='responsive_clr'>USD</span></div>
                                                         <div className="trxnumber"><input type="text" readonly="" id="txtTokenvalue2" className="form5" placeholder="0 ULE"/><span className='responsive_clr'>ULE Value</span></div>
                                                         <div className="trxnumber"><input type="text" readonly="" id="txtTronvalue2" className="form5" placeholder="0 Tron" value=""/><span className='responsive_clr' style={{fontSize:'13px'}}>TRON Value</span></div>

@@ -9,14 +9,14 @@ function WithDrawal() {
             {/* <!-- breadcrumb --> */}
             <div className="breadcrumb-header justify-content-between">
                 <div className="left-content respon_aligment">
-                    <span className="main-content-title mg-b-0 mg-b-lg-1">Activate</span>
+                    <span className="main-content-title mg-b-0 mg-b-lg-1">Registration Withdrawal</span>
                 </div>
                 <div className="justify-content-center mt-2">
                     <ol className="breadcrumb breadcrumb-style3 Br_ps">
                         <li className="breadcrumb-item tx-15">
-                            <a href="javascript:void(0)"  className='header_breadcrum'>Activation</a>
+                            <a href="javascript:void(0)"  className='header_breadcrum'>Withdrawal</a>
                         </li>
-                        <li className="breadcrumb-item active g_clr" aria-current="page">Activate</li>
+                        <li className="breadcrumb-item active g_clr" aria-current="page">Registration Withdrawal</li>
                     </ol>
                 </div>
             </div>

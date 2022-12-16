@@ -205,7 +205,9 @@ color: #B0bbc7 !important;
     overflow-x: scroll !important;
     width: 300px !important;
 }
-
+.responsi_alignment_iphone{
+    text-align: left !important;
+}
 
 .react_table_responisve{
     width: 300px !important;

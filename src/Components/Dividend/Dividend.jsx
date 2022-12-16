@@ -25,14 +25,14 @@ function Dividend() {
             {/* <!-- breadcrumb --> */}
             <div className="breadcrumb-header justify-content-between">
                 <div className="left-content respon_aligment">
-                    <span className="main-content-title mg-b-0 mg-b-lg-1">Daily Yield </span>
+                    <span className="main-content-title mg-b-0 mg-b-lg-1">Dividend Reward </span>
                 </div>
                 <div className="justify-content-center mt-2">
                     <ol className="breadcrumb breadcrumb-style3 Br_ps">
                         <li className="breadcrumb-item tx-15">
                             <a href="javascript:void(0)"  className='header_breadcrum'>All Reward</a>
                         </li>
-                        <li className="breadcrumb-item active g_clr" aria-current="page">Daily Yield</li>
+                        <li className="breadcrumb-item active g_clr" aria-current="page">Dividend Reward</li>
                     </ol>
                 </div>
             </div>

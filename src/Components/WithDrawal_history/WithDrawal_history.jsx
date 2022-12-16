@@ -31,7 +31,7 @@ function WithDrawal_history() {
                 <div className="justify-content-center mt-2">
                     <ol className="breadcrumb breadcrumb-style3 Br_ps">
                         <li className="breadcrumb-item tx-15">
-                            <a href="javascript:void(0)"  className='header_breadcrum'>History</a>
+                            <a href="javascript:void(0)"  className='header_breadcrum'>Withdrwal</a>
                         </li>
                         <li className="breadcrumb-item active g_clr" aria-current="page">Registration Withdrawal History</li>
                     </ol>

@@ -59,6 +59,7 @@ import My_team from "../My_team/My_team"
 import Nft_adress from "../Nft_adress/Nft_adress"
 import Self_adress from "../Self_adress/Self_adress"
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import Daily_yield from "../Daily_yield/Daily_yield"
 
 // import logo from "./"
 
@@ -257,8 +258,8 @@ function Main_dra({ ...props }) {
                             <p className='acc_links' onClick={() => {history('/diect_icome');handleClose()}}>Direct Income</p>
                             <p className='acc_links' onClick={() => {history('/roi_icome');handleClose()}}>Roi Income</p>
 
-                            <p className='acc_links' onClick={() => {history('/rang_yield');handleClose()}}>Rank Achievers</p>
-                            <p className='acc_links' onClick={() => {history('/refereal_rang_yield');handleClose()}}>Referal daliy yield</p>
+                          
+                            {/* <p className='acc_links' onClick={() => {history('/refereal_rang_yield');handleClose()}}>Referal daliy yield</p> */}
 
                           </div>
 
@@ -459,8 +460,8 @@ function Main_dra({ ...props }) {
                   <p className='acc_links' onClick={() => history('/diect_icome')}>Direct Income</p>
                   <p className='acc_links' onClick={() => history('/roi_icome')}>Roi Income</p>
                   {/* <p onClick={() => history('/Reg_rewarad')}>Binary Income</p> */}
-                  <p className='acc_links' onClick={() => history('/rang_yield')}>Binary Level Income</p>
-                  <p className='acc_links' onClick={() => history('/refereal_rang_yield')}>Referal daliy yield</p>
+                  {/* <p className='acc_links' onClick={() => history('/rang_yield')}>Rank Achievers Yield</p> */}
+                  {/* <p className='acc_links' onClick={() => history('/refereal_rang_yield')}>Referal daliy yield</p> */}
                   {/* <p onClick={() => history('/level_reward')}>Level Reward</p> */}
                   {/* <p> Roi Income </p> */}
                   {/* <p>   Binary Income </p> */}
@@ -587,7 +588,7 @@ function Main_dra({ ...props }) {
             <Route exact path="/activate_history" element={< Activate_history />} />
             <Route exact path="/diect_icome" element={< Direct_icome />} />
             <Route exact path="/roi_icome" element={< Roi_income />} />
-            <Route exact path="/Daliy_yield" element={< Roi_income />} />
+            <Route exact path="/Daliy_yield" element={< Daily_yield />} />
             <Route exact path="/Reg_rewarad" element={< Registration_reward />} />
             <Route exact path="/rang_yield" element={< Rank_yield />} />
             <Route exact path="/refereal_rang_yield" element={< Rank_yield />} />

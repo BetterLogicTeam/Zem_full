@@ -27,14 +27,14 @@ function My_refferal() {
             {/* <!-- breadcrumb --> */}
             <div className="breadcrumb-header justify-content-between">
                 <div className="left-content respon_aligment">
-                    <span className="main-content-title mg-b-0 mg-b-lg-1">Activation Withdrawal History</span>
+                    <span className="main-content-title mg-b-0 mg-b-lg-1">My Refferal</span>
                 </div>
                 <div className="justify-content-center mt-2">
                     <ol className="breadcrumb breadcrumb-style3 Br_ps">
                         <li className="breadcrumb-item tx-15">
-                            <a href="javascript:void(0)" className='header_breadcrum'>History</a>
+                            <a href="javascript:void(0)" className='header_breadcrum'>Team Details</a>
                         </li>
-                        <li className="breadcrumb-item active g_clr" aria-current="page">Activation Withdrawal History</li>
+                        <li className="breadcrumb-item active g_clr" aria-current="page">My Refferal</li>
                     </ol>
                 </div>
             </div>
@@ -42,7 +42,7 @@ function My_refferal() {
             
              <div className="row m-0">
                 <div className="col-xl-12 p-0 m-0 ">
-                    <div className="card m-0 there ">
+                    <div className="card m-0 there mb-3 ">
                          <div className="card-body">
                             <div className="">
                                 <div id="myAssets_wrapper" className="dataTables_wrapper dt-bootstrap5 no-footer">

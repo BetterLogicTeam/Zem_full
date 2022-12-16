@@ -28,14 +28,14 @@ function Direct_icome() {
             {/* <!-- breadcrumb --> */}
             <div className="breadcrumb-header justify-content-between">
                 <div className="left-content respon_aligment">
-                    <span className="main-content-title mg-b-0 mg-b-lg-1">Activate History  </span>
+                    <span className="main-content-title mg-b-0 mg-b-lg-1">Direct income  </span>
                 </div>
                 <div className="justify-content-center mt-2">
                     <ol className="breadcrumb breadcrumb-style3 Br_ps">
                         <li className="breadcrumb-item tx-15">
-                            <a href="javascript:void(0)"  className='header_breadcrum'>Activation </a>
+                            <a href="javascript:void(0)"  className='header_breadcrum'>All Income </a>
                         </li>
-                        <li className="breadcrumb-item active g_clr" aria-current="page">Activate History </li>
+                        <li className="breadcrumb-item active g_clr" aria-current="page">Direct income</li>
                     </ol>
                 </div>
             </div>

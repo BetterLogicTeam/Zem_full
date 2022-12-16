@@ -12,7 +12,7 @@ function Home_dash() {
                   <div className="main-container container-fluid m-0 ">
                      {/* <!-- breadcrumb --> */}
                      <div className="breadcrumb-header justify-content-between">
-                        <div className="left-content respon_aligment">
+                        <div className="left-content text-start">
                            <span className="main-content-title mg-b-0 mg-b-lg-1">DASHBOARD</span>
                         </div>
                         <div className="justify-content-center mt-2">
