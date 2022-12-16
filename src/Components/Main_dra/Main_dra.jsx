@@ -257,7 +257,7 @@ function Main_dra({ ...props }) {
                             <p className='acc_links' onClick={() => {history('/diect_icome');handleClose()}}>Direct Income</p>
                             <p className='acc_links' onClick={() => {history('/roi_icome');handleClose()}}>Roi Income</p>
 
-                            <p className='acc_links' onClick={() => {history('/rang_yield');handleClose()}}>Binary Level Income</p>
+                            <p className='acc_links' onClick={() => {history('/rang_yield');handleClose()}}>Rank Achievers</p>
                             <p className='acc_links' onClick={() => {history('/refereal_rang_yield');handleClose()}}>Referal daliy yield</p>
 
                           </div>

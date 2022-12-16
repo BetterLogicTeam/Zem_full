@@ -25,7 +25,7 @@ function Activation_reward() {
         <div className=" container-fluid p-0 m-0">
             {/* <!-- breadcrumb --> */}
             <div className="breadcrumb-header justify-content-between">
-                <div className="">
+                <div className="respon_aligment">
                     <span className="main-content-title mg-b-0 mg-b-lg-1">Activation Reward </span>
                 </div>
                 <div className="justify-content-center mt-2">
