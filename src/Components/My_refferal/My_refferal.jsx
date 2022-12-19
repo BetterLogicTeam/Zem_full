@@ -59,7 +59,7 @@ function My_refferal() {
                                                         <option value="2">Right</option>
                                                     </select>
                                                 </div>
-                                                <div className="col-md-2 text-start"><label className='responsive_lebal'>Choose Status</label>
+                                                <div className="col-md-2 text-start mb-2 m-md-0"><label className='responsive_lebal'>Choose Status</label>
                                                     <select className="floating-input form-control select_bg bg_trans " data-val="true" data-val-required="Position is required">
                                                         <option value="">Select Status</option>
                                                         <option value="2">All</option>

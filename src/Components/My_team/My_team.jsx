@@ -60,7 +60,7 @@ function My_team() {
                                                         <option value="0">In-Active</option>
                                                     </select>
                                                 </div>
-                                                <div className="col-md-2 text-start">
+                                                <div className="col-md-2 text-start mb-4">
                                                     <label className='responsive_lebal'>Position</label>
                                                     <select className="floating-input form-control select_bg bg_trans" data-val="true" data-val-required="Position is required">
                                                         <option style={{color: 'white'}}>Select Position</option>
