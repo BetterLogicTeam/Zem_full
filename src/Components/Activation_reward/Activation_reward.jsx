@@ -11,7 +11,6 @@ function Activation_reward() {
                 {Header:'Net Reward',accessor:'date'},
                 {Header:'Level',accessor:'Reward'},
                 { Header: '	Date & Time', accessor: 'Sports_Bonus' },
-                // { Header: '	Date & Time', accessor: 'Net_Income' },
             ],
         rows:[
                 {sr:'1',business:'12345',income:'Null ',Reward:"$ Null",date:'12/11/2021 1:40:08 PM',Sports_Bonus:"$ Null",Net_Income:"$ Null"},
@@ -21,9 +20,7 @@ function Activation_reward() {
   return (
     <div className='main_Ative_history'>
           <div className=" ">
-        {/* <!-- container --> */}
         <div className=" container-fluid p-0 m-0">
-            {/* <!-- breadcrumb --> */}
             <div className="breadcrumb-header justify-content-between">
                 <div className="respon_aligment">
                     <span className="main-content-title mg-b-0 mg-b-lg-1">Activation Reward </span>
@@ -37,7 +34,6 @@ function Activation_reward() {
                     </ol>
                 </div>
             </div>
-            {/* <!-- /breadcrumb --> */}
             
            
                <Table

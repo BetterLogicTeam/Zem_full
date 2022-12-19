@@ -39,7 +39,7 @@ function Activate_history() {
                     columns={reward_income.cols}
                     className=''/>
 
-<Table_buttons/>
+{/* <Table_buttons/> */}
 </div>
 
 

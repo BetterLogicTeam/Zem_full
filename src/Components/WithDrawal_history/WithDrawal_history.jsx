@@ -43,7 +43,7 @@ function WithDrawal_history() {
                                             <Table
                                              data={reward_income.rows}
                                              columns={reward_income.cols}/>
-                                             <Table_buttons/>
+                                             {/* <Table_buttons/> */}
                                         
                
 

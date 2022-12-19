@@ -11,7 +11,6 @@ function Direct_leg() {
                 {Header:'Self Investment',accessor:'date'},
                 {Header:'Team Business',accessor:'Reward'},
                 { Header: '	Total Business', accessor: 'Sports_Bonus' },
-                // { Header: '	Date & Time', accessor: 'Net_Income' },
             ],
         rows:[
                 {sr:'1',business:'12345',income:'Null ',Reward:"$ Null",date:'12/11/2021 1:40:08 PM',Sports_Bonus:"$ Null",Net_Income:"$ Null"},
@@ -21,9 +20,7 @@ function Direct_leg() {
   return (
     <div>
          <div className=" app-content m-0">
-        {/* <!-- container --> */}
         <div className=" container-fluid m-0 p-0">
-            {/* <!-- breadcrumb --> */}
             <div className="breadcrumb-header justify-content-between">
                 <div className="left-content respon_aligment">
                     <span className="main-content-title mg-b-0 mg-b-lg-1">Direct Leg Business</span>
@@ -37,16 +34,13 @@ function Direct_leg() {
                     </ol>
                 </div>
             </div>
-            {/* <!-- /breadcrumb --> */}
        
                                             <Table
                                             data={reward_income.rows}
                                             columns={reward_income.cols}/>
-                                            <Table_buttons/>
+                                            {/* <Table_buttons/> */}
                     
-            {/* <!-- row closed --> */}
           </div>
-        {/* <!-- /Container --> */}
     </div>
       
     </div>

@@ -8,12 +8,12 @@ function My_team() {
         cols:[
                 {Header: 'S.Number',accessor:'sr'},
                 {Header:'User Id',accessor:'income'},
-                {Header:'			Position',accessor:'date'},
-                {Header:'Reg.Date & Time',accessor:'Reward'},
+                {Header:'			Package',accessor:'date'},
+                {Header:'Date & Time',accessor:'Reward'},
                 {Header:'	Status',accessor:'Rewardd'},
-                // {Header:'		Position',accessor:'Rewarddd'},
+                {Header:'		Position',accessor:'Rewarddd'},
                 {Header:'			Activation Date & Time',accessor:'Rewardddd'},
-                {Header:'					Package',accessor:'Rewarddddd'},
+                // {Header:'					',accessor:'Rewarddddd'},
               
             ],
         rows:[
@@ -51,8 +51,8 @@ function My_team() {
                                     
                                     <div className="row m-0">
                                         <div className="col-sm-12 p-0">
-                                            <div className="row mt-3" style={{marginLeft: '10px'}}>
-                                                <div className="col-md-2 text-start" ><label className='responsive_lebal' >Choose Status</label>
+                                            <div className="row mt-3 " style={{marginLeft: '10px'}}>
+                                                <div className="col-md-2 mb-4 text-start" ><label className='responsive_lebal' >Choose Status</label>
                                                     <select className="floating-input form-control select_bg bg_trans " data-val="true" data-val-required="Position is required">
                                                         <option value="" className=''>Select Status</option>
                                                         <option value="2">All</option>
@@ -69,18 +69,11 @@ function My_team() {
                                                         <option value="2">Right</option>
                                                     </select>
                                                 </div>
-                                                <div className="col-md-3 text-start">
-                                                    <label className='responsive_lebal' > From Date</label><br/>
-                                                    <input type="date" placeholder="dd-mm-yyyy" name="from_date" id="from_date" className="select-system floating-input form-control select_bg bg_trans"/>
-                                                </div> 
-                                                <div className="col-md-3 text-start">
-                                                    <label className='responsive_lebal'> To Date</label><br/>
-                                                    <input type="date" placeholder="dd-mm-yyyy" name="to_date" id="to_date" className="select-system floating-input form-control select_bg bg_trans"/>
-                                                </div>
-                                                   
-                                                    <div className="col-md-2 text-start mt-2">
-                                                        <input type="button" name="to_date" className="btn search_buttton mt_5" value="Search"/>
-                                                        </div>
+                                               
+                                                        <Table
+                                               data={reward_income.rows}
+                                               columns={reward_income.cols}/>
+
                                                 </div>
                                                     <br/><br/>
                                              
@@ -99,9 +92,7 @@ function My_team() {
             {/* <!-- row closed --> */}
            
         </div>
-        <Table
-                                               data={reward_income.rows}
-                                               columns={reward_income.cols}/>
+        
         {/* <!-- /Container --> */}
     </div>
       

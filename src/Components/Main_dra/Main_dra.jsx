@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-// import * as React from 'react';
 import { styled, useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import MuiDrawer from '@mui/material/Drawer';
@@ -31,10 +30,8 @@ import logo from "../Assets/logo.png"
 import { BrowserRouter, Link, Route, Routes, useNavigate } from 'react-router-dom';
 import Active from '../Active/Active';
 import Activate_history from '../Activate_history/Activate_history';
-// import Direct_icome from '../Direct_income/Direct_icome';
 import Roi_income from '../Roi_income/Roi_income';
 import Registration_reward from '../Registration_reward/Registration_reward';
-// import Rank_yield from '../Rank_yield/Rank_yield';
 import Level_details from '../Level_details/Level_details';
 import Activation_reward from "../Activation_reward/Activation_reward"
 import { AiOutlineMenuFold } from 'react-icons/ai'
@@ -45,14 +42,13 @@ import Matching_income from "../Matching_income/Matching_income"
 import Dividend from "../Dividend/Dividend"
 import Rank_yield from "../Rank_yield/Rank_yield"
 import Withdrawal_activation from "../Withdrawal_activation/Withdrawal_activation"
-// import Registration_level_income from "../Registration_level_income/Resistration_level_income"
 import Registration_level_income from '../Registration_level_icome/Registration_level_income';
 import WithDrawal_history from '../WithDrawal_history/WithDrawal_history';
 import WithDrawal from '../WithDrawal/WithDrawal';
 import Reg_history from '../Reg_history/Reg_history';
 import My_refferal from '../My_refferal/My_refferal';
 import Direct_leg from '../Direct_leg/Direct_leg';
-// import Direct_income from '../Direct_income/Direct_income';
+
 import Direct_icome from '../Direct_income/Direct_icome';
 import Matchig_tree from "../Matching_tree/Matchig_tree"
 import My_team from "../My_team/My_team"
@@ -60,6 +56,12 @@ import Nft_adress from "../Nft_adress/Nft_adress"
 import Self_adress from "../Self_adress/Self_adress"
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Daily_yield from "../Daily_yield/Daily_yield"
+import Refferal_bonus from '../Refferal_bonus/Refferal_bonus';
+import Network_bonus from '../Network_bonus/Network_bonus';
+import Level_network_bonus from '../Level_network_bonus/Level_network_bonus';
+import Matrix_residual_1 from '../Matrix_residual_1/Matrix_residual_1';
+import Matrix_residual_2 from '../Matrix_residual_2/Matrix_residual_2';
+import Weekly_yield from '../Weekly_yield/Weekly_yield';
 
 // import logo from "./"
 
@@ -178,7 +180,9 @@ function Main_dra({ ...props }) {
                 {
                   show ? <GiTireIronCross className='Menu_icons' onClick={handleClose} /> : <AiOutlineMenuFold className='Menu_icons' onClick={handleShow} />
                 }
-                {/* <OffCanvas show={show} /> */}
+             
+
+                    {/* Mobile view offcanvas starts here which is used for navigation */}
 
 
                 <Offcanvas className='react_offcanvas' show={show}  {...props}>
@@ -257,9 +261,13 @@ function Main_dra({ ...props }) {
 
                             <p className='acc_links' onClick={() => {history('/diect_icome');handleClose()}}>Direct Income</p>
                             <p className='acc_links' onClick={() => {history('/roi_icome');handleClose()}}>Roi Income</p>
-
+                            <p className='acc_links' onClick={() => {history('/refferal_bonus');handleClose()}}>Referral Bonus </p>
+                  <p className='acc_links' onClick={() => {history('/network_bonus');handleClose()}}>Network Bonus </p>
+                  <p className='acc_links' onClick={() => {history('/level_network_bonus');handleClose()}}>Level Network Bonus </p>
+                  <p className='acc_links' onClick={() => {history('/matrix_residuals_1');handleClose()}}>Matrix Residuals 1</p>
+                  <p className='acc_links' onClick={() => {history('/matrix_residuals_2');handleClose()}}>Matrix Residuals 2</p>
+                  <p className='acc_links' onClick={() => {history('/Weekly_yield');handleClose()}}>Weekly Yield</p>
                           
-                            {/* <p className='acc_links' onClick={() => {history('/refereal_rang_yield');handleClose()}}>Referal daliy yield</p> */}
 
                           </div>
 
@@ -279,7 +287,7 @@ function Main_dra({ ...props }) {
                         <Accordion.Body className='' >
                           <div className='' >
 
-                            <p className='acc_links' onClick={() => {history('/with_drawal');handleClose()}}>Registration Withdrawal</p>
+                            <p className='acc_links' onClick={() => {history('/with_drawal');handleClose()}}> Withdrawal</p>
                             <p className='acc_links' onClick={() => {history('/Registration_withDrawal_history');handleClose()}}>Registration Withdrawal <br /> History</p>
                             <p className='acc_links' onClick={() => {history('/withDrawal');handleClose()}}>Activation Withdrawal </p>
                             <p className='acc_links' onClick={() => {history('acc_withDrawal_history');handleClose()}}>Activation Withdrawal <br /> History</p>
@@ -334,7 +342,7 @@ function Main_dra({ ...props }) {
                             <p className='acc_links' onClick={() => {history('/My_Refferal');handleClose()}}>My Refferal</p>
                             <p className='acc_links' onClick={() => {history('/Direct_leg_business');handleClose()}}>Direct Leg Business</p>
                             <p className='acc_links' onClick={() => {history('/Level_details_team');handleClose()}}>Level Details</p>
-                            <p className='acc_links' onClick={() => {history('/Matching_tree');handleClose()}}>Matching Tree</p>
+                            <p className='acc_links' onClick={() => {history('/Matching_tree');handleClose()}}>Network View</p>
                             <p className='acc_links' onClick={() => {history('/My_Team');handleClose()}}>My Team</p>
 
                           </div>
@@ -369,6 +377,9 @@ function Main_dra({ ...props }) {
 
                   </Offcanvas.Body>
                 </Offcanvas>
+                
+
+                       {/* Mobile view offcanvas ends here which is used for navigation  */}
 
 
               </div>
@@ -384,9 +395,7 @@ function Main_dra({ ...props }) {
             <div className='d-flex justify-content-start'>
               <img src={logo} className='logo_header' alt="" />
             </div>
-            {/* <IconButton onClick={handleDrawerClose}>
-              {theme.direction === 'rtl' ? <ChevronRightIcon /> : <ChevronLeftIcon />}
-            </IconButton> */}
+            
           </DrawerHeader>
           <Divider />
           <Accordion >
@@ -431,10 +440,9 @@ function Main_dra({ ...props }) {
                   <span className='acc_heading' style={{ display: !open ? "none" : "block" }}>Activation</span>       </div></Accordion.Header>
               <Accordion.Body className='' style={{ display: !open ? 'none' : 'block' }}>
                 <div className='' onClick={handleDrawerOpen}>
-                  {/* <Link to='/activate'> */}
+            
                   <p className='acc_links' onClick={() => history('/activate')}>Activate/update</p>
-                  {/* </Link> */}
-                  {/* <p>Activate History</p> */}
+                
                   <p className='acc_links' onClick={() => history('/activate_history')}>Activate History</p>
                 </div>
 
@@ -456,17 +464,16 @@ function Main_dra({ ...props }) {
               </Accordion.Header>
               <Accordion.Body className=' ' style={{ display: !open ? 'none' : 'block' }}>
                 <div className='text-start' onClick={handleDrawerOpen}>
-                  {/* <p>  Direct Income </p> */}
+                
                   <p className='acc_links' onClick={() => history('/diect_icome')}>Direct Income</p>
                   <p className='acc_links' onClick={() => history('/roi_icome')}>Roi Income</p>
-                  {/* <p onClick={() => history('/Reg_rewarad')}>Binary Income</p> */}
-                  {/* <p className='acc_links' onClick={() => history('/rang_yield')}>Rank Achievers Yield</p> */}
-                  {/* <p className='acc_links' onClick={() => history('/refereal_rang_yield')}>Referal daliy yield</p> */}
-                  {/* <p onClick={() => history('/level_reward')}>Level Reward</p> */}
-                  {/* <p> Roi Income </p> */}
-                  {/* <p>   Binary Income </p> */}
-                  {/* <p>   Binary Level Income </p> */}
-                  {/* <p>   Pool Income </p> */}
+                  <p className='acc_links' onClick={() => history('/refferal_bonus')}>Referral Bonus </p>
+                  <p className='acc_links' onClick={() => history('/network_bonus')}>Network Bonus </p>
+                  <p className='acc_links' onClick={() => history('/level_network_bonus')}>Level Network Bonus </p>
+                  <p className='acc_links' onClick={() => history('/matrix_residuals_1')}>Matrix Residuals 1</p>
+                  <p className='acc_links' onClick={() => history('/matrix_residuals_2')}>Matrix Residuals 2</p>
+                  <p className='acc_links' onClick={() => history('/Weekly_yield')}>Weekly Yield</p>
+                
                 </div>
 
               </Accordion.Body>
@@ -484,12 +491,12 @@ function Main_dra({ ...props }) {
                   <span className='acc_heading' style={{ display: !open ? "none" : "block" }}>Withdrawal </span>              </div></Accordion.Header>
               <Accordion.Body className='' style={{ display: !open ? 'none' : 'block' }} >
                 <div className='' onClick={handleDrawerOpen}>
-                  {/* <p>Withdrawal </p> */}
-                  <p className='acc_links' onClick={() => history('/with_drawal')}>Registration Withdrawal</p>
+               
+                  <p className='acc_links' onClick={() => history('/with_drawal')}> Withdrawal</p>
                   <p className='acc_links' onClick={() => history('/Registration_withDrawal_history')}>Registration Withdrawal <br /> History</p>
                   <p className='acc_links' onClick={() => history('/withDrawal')}>Activation Withdrawal </p>
                   <p className='acc_links' onClick={() => history('acc_withDrawal_history')}>Activation Withdrawal <br /> History</p>
-                  {/* <p>Withdrawal History</p> */}
+                 
                 </div>
 
               </Accordion.Body>
@@ -509,7 +516,7 @@ function Main_dra({ ...props }) {
                   <span className='acc_heading' style={{ display: !open ? "none" : "block" }}>ALL Reward</span>             </div></Accordion.Header>
               <Accordion.Body className='' style={{ display: !open ? 'none' : 'block' }}>
                 <div className='' onClick={handleDrawerOpen}>
-                  {/* <p>Registration Reward </p> */}
+                
                   <p className='acc_links' onClick={() => history('/Reg_rewarad')}>Registration Reward</p>
                   <p className='acc_links' onClick={() => history('/Activation_reward')}>Activation Reward</p>
                   <p className='acc_links' onClick={() => history('/Daliy_yield')}>Daily Yield</p>
@@ -519,13 +526,7 @@ function Main_dra({ ...props }) {
                   <p className='acc_links' onClick={() => history('/dividend_reward')}>Dividend Reward</p>
                   <p className='acc_links' onClick={() => history('/Rank_Achievers')}>Rank Achievers Yield</p>
 
-                  {/* <p>Activation Reward</p> */}
-                  {/* <p>Daily Yield</p> */}
-                  {/* <p>Refferal Daily yield Booster</p> */}
-                  {/* <p>Level Reward</p> */}
-                  {/* <p>Matching Reward</p> */}
-                  {/* <p>Dividend Reward</p> */}
-                  {/* <p>Rang Achievers Yield</p> */}
+                 
                 </div>
 
               </Accordion.Body>
@@ -542,11 +543,11 @@ function Main_dra({ ...props }) {
                   <span className='acc_heading' style={{ display: !open ? "none" : "block" }}>TEAM DETAILS  </span>        </div></Accordion.Header>
               <Accordion.Body className='' style={{ display: !open ? 'none' : 'block' }}>
                 <div className='' onClick={handleDrawerOpen}>
-                  {/* <p>My Refferal </p> */}
+            
                   <p className='acc_links' onClick={() => history('/My_Refferal')}>My Refferal</p>
                   <p className='acc_links' onClick={() => history('/Direct_leg_business')}>Direct Leg Business</p>
                   <p className='acc_links' onClick={() => history('/Level_details_team')}>Level Details</p>
-                  <p className='acc_links' onClick={() => history('/Matching_tree')}>Matching Tree</p>
+                  <p className='acc_links' onClick={() => history('/Matching_tree')}>Network View</p>
                   <p className='acc_links' onClick={() => history('/My_Team')}>My Team</p>
 
                 </div>
@@ -567,10 +568,10 @@ function Main_dra({ ...props }) {
                 </div></Accordion.Header>
               <Accordion.Body className='' style={{ display: !open ? 'none' : 'block' }}>
                 <div className='' onClick={handleDrawerOpen}>
-                  {/* <p>Self Address </p> */}
+                
                   <p className='acc_links' onClick={() => history('/self_adress')}>Self Address</p>
                   <p className='acc_links' onClick={() => history('/contract_adress')}>Contract Address</p>
-                  {/* <p>Contract Address</p> */}
+                
                 </div>
 
               </Accordion.Body>
@@ -580,7 +581,7 @@ function Main_dra({ ...props }) {
 
         <Box component="" sx={{ flexGrow: 1, p: 3 }}>
           <DrawerHeader />
-          {/* <BrowserRouter> */}
+         
 
           <Routes>
             <Route exact path="/" element={<Home_dash />} />
@@ -592,7 +593,7 @@ function Main_dra({ ...props }) {
             <Route exact path="/Reg_rewarad" element={< Registration_reward />} />
             <Route exact path="/rang_yield" element={< Rank_yield />} />
             <Route exact path="/refereal_rang_yield" element={< Rank_yield />} />
-            {/* <Route exact path="/level_reward" element={< Level_details />} /> */}
+        
             <Route exact path="/Activation_reward" element={< Activation_reward />} />
             <Route exact path="/refferal_daliy_income" element={< Reward_income />} />
             <Route exact path="/level_reward" element={< Registration_level_income />} />
@@ -610,10 +611,15 @@ function Main_dra({ ...props }) {
             <Route exact path="/My_Team" element={<My_team />} />
             <Route exact path="/contract_adress" element={<Nft_adress />} />
             <Route exact path="/self_adress" element={<Self_adress />} />
-            {/* <Route exact path="/withDrawal" element={< Rank_yield />} /> */}
+            <Route exact path="/refferal_bonus" element={<Refferal_bonus />} />
+            <Route exact path="/network_bonus" element={<Network_bonus />} />
+            <Route exact path="/level_network_bonus" element={<Level_network_bonus />} />
+            <Route exact path="/matrix_residuals_1" element={<Matrix_residual_1 />} />
+            <Route exact path="/matrix_residuals_2" element={<Matrix_residual_2 />} />
+            <Route exact path="/weekly_Yield" element={<Weekly_yield />} />
+        
           </Routes>
-          {/* </BrowserRouter> */}
-          {/* <Home_dash /> */}
+         
         </Box>
       </Box>
     </div>

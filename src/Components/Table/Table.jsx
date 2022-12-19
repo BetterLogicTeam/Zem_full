@@ -8,7 +8,7 @@ const Table = ({ columns, data }) => {
         <div>
             <div className=" ">
 
-                <div className=" container-fluid">
+                <div className=" container-fluid p-0">
                   
 
 
