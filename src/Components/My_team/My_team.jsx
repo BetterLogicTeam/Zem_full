@@ -6,7 +6,7 @@ function My_team() {
 
     var [reward_income,set_reward_income]= new useState({
         cols:[
-                {Header: 'S.Number',accessor:'sr'},
+                {Header: 'S.No',accessor:'sr'},
                 {Header:'User Id',accessor:'income'},
                 {Header:'			Package',accessor:'date'},
                 {Header:'Date & Time',accessor:'Reward'},
