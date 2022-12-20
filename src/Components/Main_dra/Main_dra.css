@@ -106,6 +106,21 @@ outline: none !important;
    
 }
 
+.income_span_heading{
+    color: #ffffffcc;
+    /* font-weight: 550; */
+    font-size: 0.81568rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.react_progress_bar{
+    background-color: #4deeea !important;
+}
+
+.apexcharts-datalabels{
+    display: none !important;
+}
+
 .network_veiw{
     box-shadow: none !important;
     outline: none !important;

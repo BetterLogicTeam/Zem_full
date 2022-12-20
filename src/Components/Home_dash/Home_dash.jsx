@@ -100,12 +100,12 @@ function Home_dash() {
                            <div className="card">
                               <div className="card-body">
                                  <div className="row">
-                                    <div className="col-xl-12 col-lg-12 col-12">
+                                    <div className="col-xl-12 col-lg-12 col-12 text-start">
                                        <div className="mb-3 align-items-center">
-                                          <span className="tx-14">My Team</span>
+                                          <span className="tx-14 text-start">My Team</span>
                                        </div>
                                     </div>
-                                    <div className="col-xl-7 col-lg-7 col-7">
+                                    <div className="col-xl-7 col-lg-7 col-7 text-start">
                                        <div className="d-block align-items-center mb-2">
                                           <h5 className="mb-0 me-2 numberfont">
                                              Total: 5<br />
@@ -114,7 +114,7 @@ function Home_dash() {
                                           </h5>
                                        </div>
                                     </div>
-                                    <div className="col-xl-5 col-lg-5 col-5">
+                                    <div className="col-xl-5 col-lg-5 col-5 text-start">
                                        <div className="d-block align-items-center mb-2">
                                           <h5 className="mb-0 me-2 numberfont">
                                              Total: 199<br />
@@ -131,12 +131,12 @@ function Home_dash() {
                            <div className="card">
                               <div className="card-body">
                                  <div className="row">
-                                    <div className="col-xl-12 col-lg-12 col-12">
+                                    <div className="col-xl-12 col-lg-12 col-12 text-start">
                                        <div className="mb-3 align-items-center">
                                           <span className="tx-14">My Referral</span>
                                        </div>
                                     </div>
-                                    <div className="col-xl-7 col-lg-7 col-7">
+                                    <div className="col-xl-7 col-lg-7 col-7 text-start">
                                        <div className="d-block align-items-center mb-2">
                                           <h5 className="mb-0 me-2 numberfont">
                                              Total: 5<br />
@@ -145,7 +145,7 @@ function Home_dash() {
                                           </h5>
                                        </div>
                                     </div>
-                                    <div className="col-xl-5 col-lg-5 col-5">
+                                    <div className="col-xl-5 col-lg-5 col-5 text-start">
                                        <div className="d-block align-items-center mb-2">
                                           <h5 className="mb-0 me-2 numberfont">
                                              Total: 5<br />
@@ -162,12 +162,12 @@ function Home_dash() {
                            <div className="card">
                               <div className="card-body">
                                  <div className="row">
-                                    <div className="col-xl-12 col-lg-12 col-12">
+                                    <div className="col-xl-12 col-lg-12 col-12 text-start ">
                                        <div className="mb-3 align-items-center">
                                           <span className="tx-14">Referral Bonus</span>
                                        </div>
                                     </div>
-                                    <div className="col-xl-7 col-lg-7 col-7">
+                                    <div className="col-xl-7 col-lg-7 col-7 text-start">
                                        <div className="d-block align-items-center mb-2">
                                           <h5 className="mb-0 me-2 numberfont">$ 0.00</h5>
                                        </div>
@@ -180,12 +180,12 @@ function Home_dash() {
                            <div className="card">
                               <div className="card-body">
                                  <div className="row">
-                                    <div className="col-xl-12 col-lg-12 col-12">
+                                    <div className="col-xl-12 col-lg-12 col-12 text-start">
                                        <div className="mb-3 align-items-center">
                                           <span className="tx-14">ROI Income</span>
                                        </div>
                                     </div>
-                                    <div className="col-xl-7 col-lg-7 col-7">
+                                    <div className="col-xl-7 col-lg-7 col-7 text-start">
                                        <div className="d-block align-items-center mb-2">
                                           <h5 className="mb-0 me-2 numberfont">$ 0.00</h5>
                                        </div>
@@ -198,12 +198,12 @@ function Home_dash() {
                            <div className="card">
                               <div className="card-body">
                                  <div className="row">
-                                    <div className="col-xl-12 col-lg-12 col-12">
+                                    <div className="col-xl-12 col-lg-12 col-12 text-start">
                                        <div className="mb-3 align-items-center">
                                           <span className="tx-14">Network Bonus</span>
                                        </div>
                                     </div>
-                                    <div className="col-xl-7 col-lg-7 col-7">
+                                    <div className="col-xl-7 col-lg-7 col-7 text-start">
                                        <div className="d-block align-items-center mb-2">
                                           <h5 className="mb-0 me-2 numberfont">$ 0.00</h5>
                                        </div>
@@ -216,12 +216,12 @@ function Home_dash() {
                            <div className="card">
                               <div className="card-body">
                                  <div className="row">
-                                    <div className="col-xl-12 col-lg-12 col-12">
+                                    <div className="col-xl-12 col-lg-12 col-12 text-start">
                                        <div className="mb-3 align-items-center">
                                           <span className="tx-14">Level Network Bonus</span>
                                        </div>
                                     </div>
-                                    <div className="col-xl-7 col-lg-7 col-7">
+                                    <div className="col-xl-7 col-lg-7 col-7 text-start">
                                        <div className="d-block align-items-center mb-2">
                                           <h5 className="mb-0 me-2 numberfont">$ 0.00</h5>
                                        </div>
@@ -234,12 +234,30 @@ function Home_dash() {
                            <div className="card">
                               <div className="card-body">
                                  <div className="row">
-                                    <div className="col-xl-12 col-lg-12 col-12">
+                                    <div className="col-xl-12 col-lg-12 col-12 text-start">
                                        <div className="mb-3 align-items-center">
-                                          <span className="tx-14">Matrix Residuals - I</span>
+                                          <span className="tx-14">Matrix Residuals  1</span>
                                        </div>
                                     </div>
-                                    <div className="col-xl-7 col-lg-7 col-7">
+                                    <div className="col-xl-7 col-lg-7 col-7 text-start">
+                                       <div className="d-block align-items-center mb-2">
+                                          <h5 className="mb-0 me-2 numberfont">$0</h5>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div className="col-xl-4 col-sm-6">
+                           <div className="card">
+                              <div className="card-body">
+                                 <div className="row">
+                                    <div className="col-xl-12 col-lg-12 col-12 text-start">
+                                       <div className="mb-3 align-items-center">
+                                          <span className="tx-14">Matrix Residuals  2</span>
+                                       </div>
+                                    </div>
+                                    <div className="col-xl-7 col-lg-7 col-7 text-start">
                                        <div className="d-block align-items-center mb-2">
                                           <h5 className="mb-0 me-2 numberfont">$0</h5>
                                        </div>
@@ -258,7 +276,7 @@ function Home_dash() {
                                  <div id="myBar" style={{ backgroundColor: 'green' }}></div>
                               </div>
                            </div>
-                           <div style={{ fontSize: 'medium', color: 'rgb(255, 255, 255)' }}>
+                           <div style={{ fontSize: 'medium', color: 'rgb(255, 255, 255)' }} className='text-start'>
                               You have earned a total $   out of $  (% out of your total 400% of your investment)
                            </div>
                            <br />
@@ -306,7 +324,7 @@ function Home_dash() {
                                           <span className="badge badge-success-transparent me-1 ft_18">0</span>
                                        </div>
                                        <div className="progress sisis">
-                                          <div className="progress-bar progress-bar-striped progress-bar-animated ht-5 bg-primary" style={{ width: '39.3%' }}></div>
+                                          <div className="progress-bar progress-bar-striped progress-bar-animated ht-5 react_progress_bar" style={{ width: '39.3%' }}></div>
                                        </div>
                                     </div>
                                  </div>
@@ -335,8 +353,8 @@ function Home_dash() {
                               </div>
                               <div className="card-body">
                                  <div className="mb-4">
-                                    <div className="mb-1">
-                                       Direct Income <span className="float-end tx-primary">
+                                    <div className="mb-1 text-start income_span_heading">
+                                    Referral Bonus <span className="float-end tx-primary">
                                           <span className="text-primary">
                                              $ 0
                                           </span>
@@ -350,7 +368,7 @@ function Home_dash() {
                                     </div>
                                  </div>
                                  <div className="mb-4">
-                                    <div className="mb-1">
+                                    <div className="mb-1 text-start income_span_heading">
                                        Roi Income <span className="float-end tx-success">
                                           <span className="text-success">
                                              $ 0
@@ -364,8 +382,8 @@ function Home_dash() {
                                     </div>
                                  </div>
                                  <div className="mb-4">
-                                    <div className="mb-1">
-                                       Binary Income <span className="float-end tx-primary">
+                                    <div className="mb-1 text-start income_span_heading">
+                                    Network Bonus <span className="float-end tx-primary">
                                           <span className="text-primary">
                                              $ 0
                                           </span>
@@ -378,8 +396,8 @@ function Home_dash() {
                                     </div>
                                  </div>
                                  <div className="mb-4">
-                                    <div className="mb-1">
-                                       Binary Level Income <span className="float-end tx-success">
+                                    <div className="mb-1 text-start income_span_heading">
+                                    Level Network Bonus <span className="float-end tx-success">
                                           <span className="text-success">
                                              $ 0
                                           </span>
@@ -392,8 +410,8 @@ function Home_dash() {
                                     </div>
                                  </div>
                                  <div className="mb-4">
-                                    <div className="mb-1">
-                                       Pool Income<span className="float-end tx-orange">
+                                    <div className="mb-1 text-start income_span_heading">
+                                    Matrix Residuals<span className="float-end tx-orange">
                                           <span className="text-orange">
                                              $ 0
                                           </span>

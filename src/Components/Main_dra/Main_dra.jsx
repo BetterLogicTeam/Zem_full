@@ -259,8 +259,8 @@ function Main_dra({ ...props }) {
                         <Accordion.Body className=' ' >
                           <div className='text-start' >
 
-                            <p className='acc_links' onClick={() => {history('/diect_icome');handleClose()}}>Direct Income</p>
-                            <p className='acc_links' onClick={() => {history('/roi_icome');handleClose()}}>Roi Income</p>
+                            {/* <p className='acc_links' onClick={() => {history('/diect_icome');handleClose()}}>Direct Income</p> */}
+                            {/* <p className='acc_links' onClick={() => {history('/roi_icome');handleClose()}}>Roi Income</p> */}
                             <p className='acc_links' onClick={() => {history('/refferal_bonus');handleClose()}}>Referral Bonus </p>
                   <p className='acc_links' onClick={() => {history('/network_bonus');handleClose()}}>Network Bonus </p>
                   <p className='acc_links' onClick={() => {history('/level_network_bonus');handleClose()}}>Level Network Bonus </p>
@@ -296,10 +296,10 @@ function Main_dra({ ...props }) {
 
                         </Accordion.Body>
                       </Accordion.Item>
-                      <div>
+                      {/* <div>
                         <h6 className='text-start mt-2 drawer_side_headding' >All Reward</h6>
-                      </div>
-                      <Accordion.Item eventKey="6">
+                      </div> */}
+                      {/* <Accordion.Item eventKey="6">
                         <Accordion.Header className="">
                           <div className='d-flex align-items-center'>
                             <svg className="ionicon side-menu__icon me-2" viewBox="0 0 512 512">
@@ -325,7 +325,7 @@ function Main_dra({ ...props }) {
                           </div>
 
                         </Accordion.Body>
-                      </Accordion.Item>
+                      </Accordion.Item> */}
                       <div>
                         <h6 className='text-start mt-2 drawer_side_headding'>TEAM DETAILS</h6>
                       </div>
@@ -465,8 +465,8 @@ function Main_dra({ ...props }) {
               <Accordion.Body className=' ' style={{ display: !open ? 'none' : 'block' }}>
                 <div className='text-start' onClick={handleDrawerOpen}>
                 
-                  <p className='acc_links' onClick={() => history('/diect_icome')}>Direct Income</p>
-                  <p className='acc_links' onClick={() => history('/roi_icome')}>Roi Income</p>
+                  {/* <p className='acc_links' onClick={() => history('/diect_icome')}>Direct Income</p> */}
+                  {/* <p className='acc_links' onClick={() => history('/roi_icome')}>Roi Income</p> */}
                   <p className='acc_links' onClick={() => history('/refferal_bonus')}>Referral Bonus </p>
                   <p className='acc_links' onClick={() => history('/network_bonus')}>Network Bonus </p>
                   <p className='acc_links' onClick={() => history('/level_network_bonus')}>Level Network Bonus </p>
@@ -493,18 +493,18 @@ function Main_dra({ ...props }) {
                 <div className='' onClick={handleDrawerOpen}>
                
                   <p className='acc_links' onClick={() => history('/with_drawal')}> Withdrawal</p>
-                  <p className='acc_links' onClick={() => history('/Registration_withDrawal_history')}>Registration Withdrawal <br /> History</p>
-                  <p className='acc_links' onClick={() => history('/withDrawal')}>Activation Withdrawal </p>
-                  <p className='acc_links' onClick={() => history('acc_withDrawal_history')}>Activation Withdrawal <br /> History</p>
+                  <p className='acc_links' onClick={() => history('/Registration_withDrawal_history')}> Withdrawal  History</p>
+                  {/* <p className='acc_links' onClick={() => history('/withDrawal')}>Activation Withdrawal </p> */}
+                  {/* <p className='acc_links' onClick={() => history('acc_withDrawal_history')}>Activation Withdrawal <br /> History</p> */}
                  
                 </div>
 
               </Accordion.Body>
             </Accordion.Item>
-            <div>
+            {/* <div>
               <h6 className='text-start mt-2 drawer_side_headding' style={{ display: !open ? 'none' : 'block' }}>All Reward</h6>
-            </div>
-            <Accordion.Item eventKey="6">
+            </div> */}
+            {/* <Accordion.Item eventKey="6">
               <Accordion.Header className="">
                 <div className='d-flex align-items-center'>
                   <svg className="ionicon side-menu__icon me-2" viewBox="0 0 512 512">
@@ -530,7 +530,7 @@ function Main_dra({ ...props }) {
                 </div>
 
               </Accordion.Body>
-            </Accordion.Item>
+            </Accordion.Item> */}
             <div>
               <h6 className='text-start mt-2 drawer_side_headding' style={{ display: !open ? 'none' : 'block' }}>TEAM DETAILS</h6>
             </div>

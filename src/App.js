@@ -12,6 +12,7 @@ import {
 
 import Main_header from "./Components/Main_header/Main_header";
 import Refferal_bonus from "./Components/Refferal_bonus/Refferal_bonus";
+import Login_page from "./Components/Login_page/Login_page";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Main_dra />
         </BrowserRouter>
       </>
+     
       {/* <Refferal_bonus/> */}
     </div>
   );
