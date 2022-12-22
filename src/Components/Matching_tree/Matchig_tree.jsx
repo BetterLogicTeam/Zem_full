@@ -1,5 +1,12 @@
 import React from 'react'
 import "./Matchin_tree.css"
+import tree_red from '../Assets/tree_red.png'
+import tree_black from '../Assets/tree_black.png'
+import tree_green from '../Assets/tree_green.png'
+import treeimg from '../Assets/treeimg.png'
+import treeimg1 from '../Assets/treeimg1.png'
+import treeimg2 from '../Assets/treeimg2.png'
+
 
 function Matchig_tree() {
   return (
@@ -40,16 +47,16 @@ function Matchig_tree() {
                 <div className="col-md-6">
                  <div className="tree_icon">
                     <div className="tree_name">
-                        <img src="assets/img/tree/tree_green.png" width="40px" height="40px"/>
+                        <img src={tree_green} width="40px" height="40px"/>
                       <span className='text-clr'>Active</span>  
                     </div>
                     <div className="tree_name">
-                        <img src="assets/img/tree/tree_red.png" width="40px" height="40px"/>
+                        <img src={tree_red} width="40px" height="40px"/>
                        
                         <span className='text-clr'> In-Active</span>  
                     </div>
                     <div className="tree_name">
-                        <img src="assets/img/tree/tree_black.png" width="40px" height="40px"/>
+                        <img src={tree_black} width="40px" height="40px"/>
                        
                            
                         <span className='text-clr'>  Not Registered</span>
@@ -66,7 +73,7 @@ function Matchig_tree() {
                                 <div class="dropdown">
                                     <button class="dropbtn">
                                         
-                                        <img src="assets/img/tree/tree_green.png" class="abc" width="40px" onclick="Image_Click(364734)"/>
+                                        <img src={tree_green} class="abc" width="40px" onclick="Image_Click(364734)"/>
                                     </button>
 
                                     <div class="span" style={{color:'#fff'}}>
@@ -152,14 +159,14 @@ function Matchig_tree() {
                             </div>
 
                             <div class="connecter1">
-                                <img src="assets/img/tree/treeimg.png" style={{width: '480px' ,height: '33px'}}/>
+                                <img src={treeimg} style={{width: '480px' ,height: '33px'}}/>
                             </div>
 
                             <div class="tree_row">
                                 <div class="row_2_child">
                                     <div class="dropdown">
                                         <button class="dropbtn">
-                                            <img src="assets/img/tree/tree_red.png" class="abc"width="40px" onclick="Image_Click()"/>
+                                            <img src={tree_red} class="abc"width="40px" onclick="Image_Click()"/>
                                         </button>
                                         <div class="span">
                                             <br/> 
@@ -240,7 +247,7 @@ function Matchig_tree() {
                                     <div class="dropdown">
                                         <button class="dropbtn">
                                             
-                                            <img src="assets/img/tree/tree_red.png" class="abc" width="40px"onclick="Image_Click()"/>
+                                            <img src={tree_red} class="abc" width="40px"onclick="Image_Click()"/>
                                         </button>
                                       
                                         <div class="dropdown-content">
@@ -327,10 +334,10 @@ function Matchig_tree() {
 
                             <div class="tree_row" style={{height: '34px'}}>
                                 <div class="row_2_child" style={{height: '34px'}}>
-                                    <img src="assets/img/tree/treeimg1.png" style={{width: '253px', height: '32px'}}/>
+                                    <img src={treeimg1} style={{width: '253px', height: '32px'}}/>
                                 </div>
                                 <div class="row_2_child" style={{height: '34px'}}>
-                                    <img src="assets/img/tree/treeimg1.png" style={{width: '253px', height: '32px'}}/>
+                                    <img src={treeimg1} style={{width: '253px', height: '32px'}}/>
                                 </div>
                             </div>
 
@@ -339,7 +346,7 @@ function Matchig_tree() {
                                     <div class="dropdown">
                                         <button class="dropbtn">
                                             
-                                            <img src="assets/img/tree/tree_red.png" class="abc" width="40px"onclick="Image_Click()"/>
+                                            <img src={tree_red} class="abc" width="40px"onclick="Image_Click()"/>
                                         </button>
                                        
                                         <div class="dropdown-content">
@@ -426,7 +433,7 @@ function Matchig_tree() {
                                     <div class="dropdown">
                                         <button class="dropbtn">
                                             
-                                            <img src="assets/img/tree/tree_black.png" width="40px" class="abc" onclick="Image_Click()"/>
+                                            <img src={tree_black} width="40px" class="abc" onclick="Image_Click()"/>
                                         </button>
                                         {/* <!-- <div class="span">
                                             <br>
@@ -517,7 +524,7 @@ function Matchig_tree() {
                                     <div class="dropdown">
                                         <button class="dropbtn">
                                             
-                                            <img src="assets/img/tree/tree_black.png"width="40px" class="abc"onclick="Image_Click()"/>
+                                            <img src={tree_black}width="40px" class="abc"onclick="Image_Click()"/>
                                         </button>
                                       
                                         <div class="dropdown-content">
@@ -604,7 +611,7 @@ function Matchig_tree() {
                                     <div class="dropdown">
                                         <button class="dropbtn">
                                             
-                                            <img src="assets/img/tree/tree_black.png" width="40px"class="abc" onclick="Image_Click()"/>
+                                            <img src={tree_black} width="40px"class="abc" onclick="Image_Click()"/>
                                         </button>
                                        
                                         <div class="dropdown-content">
@@ -691,16 +698,16 @@ function Matchig_tree() {
 
                             <div class="tree_row" style={{height: '27px'}}>
                                 <div class="row_3_child" style={{height: '27px'}}>
-                                    <img src="assets/img/tree/treeimg2.png" style={{width: '129px', height: '27px'}}/>
+                                    <img src={treeimg2} style={{width: '129px', height: '27px'}}/>
                                 </div>
                                 <div class="row_3_child" style={{height: '27px'}}>
-                                    <img src="assets/img/tree/treeimg2.png" style={{width: '129px', height: '27px'}}/>
+                                    <img src={treeimg2} style={{width: '129px', height: '27px'}}/>
                                 </div>
                                 <div class="row_3_child" style={{height: '27px'}}>
-                                    <img src="assets/img/tree/treeimg2.png" style={{width: '129px', height: '27px'}}/>
+                                    <img src={treeimg2} style={{width: '129px', height: '27px'}}/>
                                 </div>
                                 <div class="row_3_child" style={{height: '27px'}}>
-                                    <img src="assets/img/tree/treeimg2.png" style={{width: '129px', height: '27px'}}/>
+                                    <img src={treeimg2} style={{width: '129px', height: '27px'}}/>
                                 </div>
                             </div>
                             <div class="tree_row">
@@ -708,7 +715,7 @@ function Matchig_tree() {
                                     <div class="dropdown">
                                         <button class="dropbtn">
                                             
-                                            <img src="assets/img/tree/tree_black.png" width="40px"class="abc" onclick="Image_Click()"/>
+                                            <img src={tree_black} width="40px"class="abc" onclick="Image_Click()"/>
                                         </button>
                                    
                                         <div class="dropdown-content">
@@ -796,7 +803,7 @@ function Matchig_tree() {
                                     <div class="dropdown">
                                         <button class="dropbtn">
                                             
-                                            <img src="assets/img/tree/tree_black.png" width="40px"class="abc" onclick="Image_Click()"/>
+                                            <img src={tree_black} width="40px"class="abc" onclick="Image_Click()"/>
                                         </button>
                                       
                                         <div class="dropdown-content">
@@ -884,7 +891,7 @@ function Matchig_tree() {
                                     <div class="dropdown">
                                         <button class="dropbtn">
                                             
-                                            <img src="assets/img/tree/tree_black.png"width="40px" class="abc"onclick="Image_Click()"/>
+                                            <img src={tree_black}width="40px" class="abc"onclick="Image_Click()"/>
                                         </button>
                                         
                                         <div class="dropdown-content">
@@ -972,7 +979,7 @@ function Matchig_tree() {
                                     <div class="dropdown">
                                         <button class="dropbtn">
                                             
-                                            <img src="assets/img/tree/tree_black.png" width="40px"class="abc" onclick="Image_Click()"/>
+                                            <img src={tree_black} width="40px"class="abc" onclick="Image_Click()"/>
                                         </button>
                                       
                                         <div class="dropdown-content">
@@ -1060,7 +1067,7 @@ function Matchig_tree() {
                                     <div class="dropdown">
                                         <button class="dropbtn">
                                             
-                                            <img src="assets/img/tree/tree_black.png" width="40px"class="abc" onclick="Image_Click()"/>
+                                            <img src={tree_black} width="40px"class="abc" onclick="Image_Click()"/>
                                         </button>
                                        
                                         <div class="dropdown-content">
@@ -1148,7 +1155,7 @@ function Matchig_tree() {
                                     <div class="dropdown">
                                         <button class="dropbtn">
                                             
-                                            <img src="assets/img/tree/tree_black.png"width="40px" class="abc" onclick="Image_Click()"/>
+                                            <img src={tree_black}width="40px" class="abc" onclick="Image_Click()"/>
                                         </button>
                                       
                                         <div class="dropdown-content">
@@ -1236,7 +1243,7 @@ function Matchig_tree() {
                                     <div class="dropdown">
                                         <button class="dropbtn">
                                             
-                                            <img src="assets/img/tree/tree_black.png" width="40px"class="abc" onclick="Image_Click()"/>
+                                            <img src={tree_black} width="40px"class="abc" onclick="Image_Click()"/>
                                         </button>
                                       
                                         <div class="dropdown-content">
@@ -1324,7 +1331,7 @@ function Matchig_tree() {
                                     <div class="dropdown">
                                         <button class="dropbtn">
                                             
-                                            <img src="assets/img/tree/tree_black.png" width="40px"class="abc" onclick="Image_Click()"/>
+                                            <img src={tree_black} width="40px"class="abc" onclick="Image_Click()"/>
                                         </button>
                                        
                                         <div class="dropdown-content">

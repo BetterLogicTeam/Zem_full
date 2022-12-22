@@ -5,6 +5,19 @@
 .react_main_register{
     max-height: 100vh !important;
 }
+.home_login_heading{
+    color: white !important;
+    font-size: 15px !important;
+}
+
+.clr_white{
+    color: white !important;
+}
+
+.login_button{
+    display: block !important;
+    margin: 10px auto !important;
+}
 
 
 

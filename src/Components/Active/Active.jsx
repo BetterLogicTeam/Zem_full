@@ -1,5 +1,5 @@
 import React from 'react'
-
+import activate from '../Assets/activate.png'
 function Active() {
   return (
     <div>
@@ -51,11 +51,11 @@ function Active() {
                                                     <h5 className="tomenname" style={{marginTop: '1rem'}}></h5>
                                                     <div className="row">
                                                         <div className="col-md-3"></div>
-                                                        <div className="col-md-6">
+                                                        <div className="col-md-6 ">
                                                             <a>
                                                                 <div className="text-center net_box ">
-                                                                    <img src="assets/img/activate.png" className="img-fluid" width="20%" />
-                                                                    <h4 className='text-white text-clr'>Activation</h4>
+                                                                    <img src={activate} className="img-fluid" width="20%" />
+                                                                    <h4 className=' text-clr ' style={{color:"white"}}>Activation</h4>
                                                                 </div>
                                                             </a>
                                                         </div>

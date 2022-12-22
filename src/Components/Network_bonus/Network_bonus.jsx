@@ -3,27 +3,28 @@ import Table from "../Table/Table"
 
 function Network_bonus() {
 
-    var [reward_income,set_reward_income]= new useState({
-        cols:[
-                {Header: 'S.No',accessor:'sr'},
-                {Header:'User Address',accessor:'income'},
-                {Header:'			Left Business',accessor:'date'},
-                {Header:'Right Business',accessor:'Reward'},
-                {Header:'	Matching Business',accessor:'Rewardd'},
-                {Header:'	Caping Amount',accessor:'Rewarddd'},
-                {Header:'	Net Income',accessor:'Rewardddd'},
-                {Header:'	Date & Time',accessor:'Rewarddddd'},
-              
-              
-            ],
-        rows:[
-                {sr:'1',business:'12345',income:'Null ',Reward:"$ Null",date:'12/11/2021 1:40:08 PM',Sports_Bonus:"$ Null",Net_Income:"$ Null"},
-                {sr:'2',business:'12345',income:'Null ',Reward:"$ Null",date:'12/11/2021 1:40:08 PM',Sports_Bonus:"$ Null",Net_Income:"$ Null"},
-                {sr:'3',business:'12345',income:'Null ',Reward:"$ Null",date:'12/11/2021 1:40:08 PM',Sports_Bonus:"$ Null",Net_Income:"$ Null"},
-        ]});
-  return (
-    <div>
-           <div className="m-0 app-content">
+    var [reward_income, set_reward_income] = new useState({
+        cols: [
+            { Header: 'S.No', accessor: 'sr' },
+            { Header: 'User Address', accessor: 'income' },
+            { Header: '			Left Business', accessor: 'date' },
+            { Header: 'Right Business', accessor: 'Reward' },
+            { Header: '	Matching Business', accessor: 'Rewardd' },
+            { Header: '	Caping Amount', accessor: 'Rewarddd' },
+            { Header: '	Net Income', accessor: 'Rewardddd' },
+            { Header: '	Date & Time', accessor: 'Rewarddddd' },
+
+
+        ],
+        rows: [
+            { sr: '1', business: '12345', income: 'Null ', Reward: "$ Null", date: '12/11/2021 1:40:08 PM', Sports_Bonus: "$ Null", Net_Income: "$ Null" },
+            { sr: '2', business: '12345', income: 'Null ', Reward: "$ Null", date: '12/11/2021 1:40:08 PM', Sports_Bonus: "$ Null", Net_Income: "$ Null" },
+            { sr: '3', business: '12345', income: 'Null ', Reward: "$ Null", date: '12/11/2021 1:40:08 PM', Sports_Bonus: "$ Null", Net_Income: "$ Null" },
+        ]
+    });
+    return (
+        <div>
+            <div className="m-0 app-content">
                 {/* <!-- container --> */}
                 <div className="p-0 m-0 container-fluid">
                     {/* <!-- breadcrumb --> */}
@@ -41,18 +42,18 @@ function Network_bonus() {
                         </div>
                     </div>
                     {/* <!-- /breadcrumb --> */}
-                    
-                 
-                   <Table
-                   data={reward_income.rows}
-                   columns={reward_income.cols}/>
+
+
+                    <Table
+                        data={reward_income.rows}
+                        columns={reward_income.cols} />
 
                 </div>
                 {/* <!-- /Container --> */}
             </div>
-      
-    </div>
-  )
+
+        </div>
+    )
 }
 
 export default Network_bonus

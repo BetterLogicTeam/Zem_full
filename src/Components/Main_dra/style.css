@@ -20522,7 +20522,7 @@ form[role="search"].active input {
 
 @media (min-width: 991px) {
   .header {
-    width: 230px;
+    /* width: 230px; */
   }
 }
 

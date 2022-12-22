@@ -41,7 +41,7 @@ function Home_register_page() {
                       Remember to authorize with the correct Wallet address.
                     </p>
                     <div class="space_set"></div>
-                    <div class="subtitle text-white">View an Account</div>
+                    <div class="subtitle clr_white">View an Account</div>
                     <br />
                     <form>
                       <div class="form-row">

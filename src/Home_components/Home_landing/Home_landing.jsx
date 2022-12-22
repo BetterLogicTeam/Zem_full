@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Accordion from 'react-bootstrap/Accordion';
 import { Link } from 'react-router-dom';
 import logo from "../../Components/Assets/logo.png"
+import './CustomNav.css'
 
 
 function Home_landing() {
@@ -103,7 +104,7 @@ function Home_landing() {
                     <div class="container">
                         <div class="hero__info">
                             <h2 class="title title--fz-50 title--dots title--uppercase title--center mb-lg-15 mb-xl-20 mb-30">WUSDT.SPACE</h2>
-                            <b class='fw-bold text-white fs-2'>The Upcoming Newly Launched Project coming soon - wusdt.space on 1st week of Dec. 2022 </b>
+                            <b class='fw-bold home_login_heading'>The Upcoming Newly Launched Project coming soon - wusdt.space on 1st week of Dec. 2022 </b>
                             <p class="text text--fz-20 text--center color-periwinkle-070 hero__text mb-lg-25 mb-xl-30 mb-40">
                                 Information about this Project WUSDT stable-coins With USDT regular return Investments Have Never Been This Simple Bridge-in-out  With just one click, get WUSDT with USDTs Multi-chains stable cryptocurrency.
                                 Receive weekly profits of up to 2% to 3% on your crypto assets to expand your portfolio.
@@ -467,7 +468,7 @@ function Home_landing() {
                             <div class="faq__col react_col">
         
                                 <div class="accordion1 text-white  " >
-                                    <button class="acc text-white"  onClick={() => setShow(!show)}>How to create an account?</button>
+                                    <button class="acc clr_white"  onClick={() => setShow(!show)}>How to create an account?</button>
                                     <div  className={`${show ? "d-block panel acc_show_text" : "d-none"}`}>
                                         <p>
                                             The registration is simple. You have to fill in the form, agree to the Privacy Policy and solve google reCAPTCHA.
@@ -477,7 +478,7 @@ function Home_landing() {
                                     
                                 </div>
                                 <div class="accordion1" data-accordion="faq">
-                                    <button class="acc text-white"  onClick={() => setShow1(!show1)}>Is my personal info safe?</button>
+                                    <button class="acc clr_white"  onClick={() => setShow1(!show1)}>Is my personal info safe?</button>
                                     <div className={`${show1 ? "d-block panel acc_show_text" : "d-none"}`}>
                                         <p>
                                             All your info is 100% safe in WUSDT.SPACE. Any transferred information within our website is encrypted by COMODO SSL and
@@ -488,7 +489,7 @@ function Home_landing() {
                                     
                                 </div>
                                 <div class="accordion1" data-accordion="faq">
-                                    <button class="acc text-white" onClick={() => setShow2(!show2)}>Do i need KYC for WUSDT.SPACE?</button>
+                                    <button class="acc clr_white" onClick={() => setShow2(!show2)}>Do i need KYC for WUSDT.SPACE?</button>
                                     <div className={`${show2 ? "d-block panel acc_show_text" : "d-none"}`}>
                                         <p>
                                             No KYC required to use WUSDT.SPACE. We value the importance of our customer's anonymity and the security of their
@@ -497,7 +498,7 @@ function Home_landing() {
                                     </div>  
                                 </div>
                                 <div class="accordion1" data-accordion="faq">
-                                    <button class="acc text-white"  onClick={() => setShow3(!show3)}>How to protect my founds from being hacked?</button>
+                                    <button class="acc clr_white"  onClick={() => setShow3(!show3)}>How to protect my founds from being hacked?</button>
                                     <div className={`${show3 ? "d-block panel acc_show_text" : "d-none"}`}>
                                         <p>
                                             To protect your funds from being hacked, we have added Two-Factor Authentication (2FA) as an extra level of security. 2FA
@@ -507,7 +508,7 @@ function Home_landing() {
                                     
                                 </div>
                                 <div class="accordion1" data-accordion="faq">
-                                    <button class="acc text-white" onClick={() => setShow4(!show4)}>I forgot my password. How to restore my account?</button>
+                                    <button class="acc clr_white" onClick={() => setShow4(!show4)}>I forgot my password. How to restore my account?</button>
                                     <div  className={`${show4? "d-block panel acc_show_text" : "d-none"}`}>
                                         <p>
                                             On sign in page at the bottom of the window, click Forgot password? and follow instructions sent to you by e-mail.
@@ -515,7 +516,7 @@ function Home_landing() {
                                     </div>   
                                 </div>
                                 <div class="accordion1" data-accordion="faq">
-                                    <button class="acc text-white " onClick={() => setShow5(!show5)}>Do I get my initial deposit back after the 60 Weeks plan?</button>
+                                    <button class="acc clr_white" onClick={() => setShow5(!show5)}>Do I get my initial deposit back after the 60 Weeks plan?</button>
                                     <div  className={`${show5 ? "d-block panel acc_show_text" : "d-none"}`}>
                                         <p>
                                             No, your deposit is included in the daily earnings. You get 2.5% per Week on what you invested for 60 Weeks.
@@ -523,7 +524,7 @@ function Home_landing() {
                                     </div>  
                                 </div>
                                 <div class="accordion1" data-accordion="faq">
-                                    <button class="acc text-white" onClick={() => setShow6(!show6)}>What will happen to my deposit after 60 Weeks?</button>
+                                    <button class="acc clr_white" onClick={() => setShow6(!show6)}>What will happen to my deposit after 60 Weeks?</button>
                                     <div  className={`${show6 ? "d-block panel acc_show_text" : "d-none"}`}>
                                         <p>
                                             Your deposit will not generate any more profit and will no longer be active.
@@ -531,7 +532,7 @@ function Home_landing() {
                                     </div>  
                                 </div>
                                 <div class="accordion1" data-accordion="faq">
-                                    <button class="acc text-white" onClick={() => setShow7(!show7)}>Can I compound in WUSDT.SPACE?</button>
+                                    <button class="acc clr_white" onClick={() => setShow7(!show7)}>Can I compound in WUSDT.SPACE?</button>
                                     <div  className={`${show7 ? "d-block panel acc_show_text" : "d-none"}`}>
                                         <p>
                                             No, compound option is not available.
@@ -539,7 +540,7 @@ function Home_landing() {
                                     </div>  
                                 </div>
                                 <div class="accordion1" data-accordion="faq">
-                                    <button class="acc text-white" onClick={() => setShow8(!show8)}>Can I reinvest my earnings in WUSDT.SPACE?</button>
+                                    <button class="acc clr_white" onClick={() => setShow8(!show8)}>Can I reinvest my earnings in WUSDT.SPACE?</button>
                                     <div  className={`${show8 ? "d-block panel acc_show_text" : "d-none"}`}>
                                         <p>
                                             No, reinvest option is not available. You only withdraw your balance.
@@ -547,7 +548,7 @@ function Home_landing() {
                                     </div> 
                                 </div>
                                 <div class="accordion1" data-accordion="faq">
-                                    <button class="acc text-white" onClick={() => setShow9(!show9)}>What payment methods do we accept for deposits?</button>
+                                    <button class="acc clr_white" onClick={() => setShow9(!show9)}>What payment methods do we accept for deposits?</button>
                                     <div  className={`${show9 ? "d-block panel acc_show_text" : "d-none"}`}>
                                         <p>
                                             We accept wusdt.
@@ -555,7 +556,7 @@ function Home_landing() {
                                     </div>
                                 </div>
                                 <div class="accordion1" data-accordion="faq">
-                                    <button class="acc text-white"  onClick={() => setShow10(!show10)}>How long does it take for my deposit to show up?</button>
+                                    <button class="acc clr_white"  onClick={() => setShow10(!show10)}>How long does it take for my deposit to show up?</button>
                                     <div  className={`${show10 ? "d-block panel acc_show_text" : "d-none"}`}>
                                         <p>
                                             Your deposit will show up in your account automatically after 2 to 3 blockchain network confirmations. Your deposit will
@@ -570,7 +571,7 @@ function Home_landing() {
                             </div>
                             <div class="faq__col">
                                 <div class="accordion1" data-accordion="faq">
-                                    <button class="acc text-white" onClick={() => setShow11(!show11)}>How long does it take to receive my withdrawals?</button>
+                                    <button class="acc clr_white" onClick={() => setShow11(!show11)}>How long does it take to receive my withdrawals?</button>
                                     <div className={`${show11 ? "d-block panel acc_show_text" : "d-none"}`}>
                                         <p>
                                             Withdrawals are instant after the request is processed by our payment processor.
@@ -579,7 +580,7 @@ function Home_landing() {
                                     </div>  
                                 </div>
                                 <div class="accordion1" data-accordion="faq">
-                                    <button class="acc text-white" onClick={() => setShow12(!show12)} >Do you charge any fees?</button>
+                                    <button class="acc clr_white" onClick={() => setShow12(!show12)} >Do you charge any fees?</button>
                                     <div className={`${show12 ? "d-block panel acc_show_text" : "d-none"}`}>
                                         <p>
                                             Yes, we charge 3% fee on both depositing and withdrawing.
@@ -588,7 +589,7 @@ function Home_landing() {
                                     </div>  
                                 </div>
                                 <div class="accordion1" data-accordion="faq">
-                                    <button class="acc text-white" onClick={() => setShow13(!show13)}>What is the minimum and maximum amount for investment?</button>
+                                    <button class="acc clr_white" onClick={() => setShow13(!show13)}>What is the minimum and maximum amount for investment?</button>
                                     <div  className={`${show13 ? "d-block panel acc_show_text" : "d-none"}`}>
                                         <p>
                                             The minimum investment amount is $100, the maximum amount is $300 000.
@@ -599,7 +600,7 @@ function Home_landing() {
                                     </div>   
                                 </div>
                                 <div class="accordion1" data-accordion="faq">
-                                    <button class="acc text-white" onClick={() => setShow14(!show14)}>What is the minimum and maximum amount for withdrawal?</button>
+                                    <button class="acc clr_white" onClick={() => setShow14(!show14)}>What is the minimum and maximum amount for withdrawal?</button>
                                     <div className={`${show14 ? "d-block panel acc_show_text" : "d-none"}`}>
                                         <p>
                                             The minimum withdrawal amount is $30. There is no maximum limit for withdrawal.
@@ -608,7 +609,7 @@ function Home_landing() {
                                     </div>   
                                 </div>
                                 <div class="accordion1" data-accordion="faq">
-                                    <button class="acc text-white"  onClick={() => setShow15(!show15)}>Do you have an affiliate program?</button>
+                                    <button class="acc clr_white"  onClick={() => setShow15(!show15)}>Do you have an affiliate program?</button>
                                     <div  className={`${show15 ? "d-block panel acc_show_text" : "d-none"}`}>
                                         <p>
                                             Yes, we offer 3-levels referral program 8%-4%-2% for regular users and 9-levels 9% 5% 3% 1% 0.6% 0.5% 0.4% 0.3% 0.2% for
@@ -618,7 +619,7 @@ function Home_landing() {
                                     </div>  
                                 </div>
                                 <div class="accordion1" data-accordion="faq">
-                                    <button class="acc text-white"  onClick={() => setShow16(!show16)}>Do I have to make a deposit to receive referral rewards?</button>
+                                    <button class="acc clr_white"  onClick={() => setShow16(!show16)}>Do I have to make a deposit to receive referral rewards?</button>
                                     <div  className={`${show16 ? "d-block panel acc_show_text" : "d-none"}`}>
                                         <p>
                                             Yes, a minimum deposit is required.
@@ -627,7 +628,7 @@ function Home_landing() {
                                     </div>  
                                 </div>
                                 <div class="accordion1" data-accordion="faq">
-                                    <button class="acc text-white" onClick={() => setShow17(!show17)}>Can I change my sponsor?</button>
+                                    <button class="acc clr_white" onClick={() => setShow17(!show17)}>Can I change my sponsor?</button>
                                     <div  className={`${show17 ? "d-block panel acc_show_text" : "d-none"}`}>
                                         <p>
                                             No, we do not allow this action.
@@ -636,7 +637,7 @@ function Home_landing() {
                                     </div>
                                 </div>
                                 <div class="accordion1" data-accordion="faq">
-                                    <button class="acc text-white"  onClick={() => setShow18(!show18)}>Why I can't see my sponsor email on registration page?</button>
+                                    <button class="acc clr_white"  onClick={() => setShow18(!show18)}>Why I can't see my sponsor email on registration page?</button>
                                     <div className={`${show18 ? "d-block panel acc_show_text" : "d-none"}`}>
                                         <p>
                                             Make sure you clicked the right link first. Some browsers block cookies by default, contact your upline to check
@@ -647,7 +648,7 @@ function Home_landing() {
                                     </div>
                                 </div>
                                 <div class="accordion1" data-accordion="faq">
-                                    <button class="acc text-white"   onClick={() => setShow19(!show19)}>Can I change my Wallet address?</button>
+                                    <button class="acc clr_white"   onClick={() => setShow19(!show19)}>Can I change my Wallet address?</button>
                                     <div className={`${show19 ? "d-block panel acc_show_text" : "d-none"}`}>
                                         <p>
                                             No.
@@ -656,7 +657,7 @@ function Home_landing() {
                                     </div>   
                                 </div>
                                 <div class="accordion1" onClick={() => setShow20(!show20)} data-accordion="faq">
-                                    <button class="acc text-white">Can I create multiple accounts?</button>
+                                    <button class="acc clr_white">Can I create multiple accounts?</button>
                                     <div className={`${show20 ? "d-block panel acc_show_text" : "d-none"}`}>
                                         <p>
                                             You are allowed to have one account only. Abusing the system will lead to a permanent suspension of your accounts.

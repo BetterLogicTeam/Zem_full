@@ -63,6 +63,7 @@ import Matrix_residual_1 from '../Matrix_residual_1/Matrix_residual_1';
 import Matrix_residual_2 from '../Matrix_residual_2/Matrix_residual_2';
 import Weekly_yield from '../Weekly_yield/Weekly_yield';
 import './style.css'
+import './tree.css'
 
 // import logo from "./"
 
@@ -207,7 +208,7 @@ function Main_dra({ ...props }) {
                         <Accordion.Body className=''  >
                           <div className='' >
 
-                            <p  className='acc_links' onClick={() => {history('/');handleClose()}} >DashBoard</p>
+                            <p  className='acc_links' onClick={() => {history('/main_draaa');handleClose()}} >DashBoard</p>
 
                           </div>
 
@@ -238,7 +239,7 @@ function Main_dra({ ...props }) {
                             <p className='acc_links' onClick={() => {history('/main_draaa/activate');handleClose()}}>Activate/update</p>
 
 
-                            <p className='acc_links' onClick={() => {history('/activate_history');handleClose()}}>Activate History</p>
+                            <p className='acc_links' onClick={() => {history('/main_draaa/activate_history');handleClose()}}>Activate History</p>
                           </div>
 
                         </Accordion.Body>
@@ -260,14 +261,14 @@ function Main_dra({ ...props }) {
                         <Accordion.Body className=' ' >
                           <div className='text-start' >
 
-                            {/* <p className='acc_links' onClick={() => {history('/diect_icome');handleClose()}}>Direct Income</p> */}
-                            {/* <p className='acc_links' onClick={() => {history('/roi_icome');handleClose()}}>Roi Income</p> */}
-                            <p className='acc_links' onClick={() => {history('/refferal_bonus');handleClose()}}>Referral Bonus </p>
-                  <p className='acc_links' onClick={() => {history('/network_bonus');handleClose()}}>Network Bonus </p>
-                  <p className='acc_links' onClick={() => {history('/level_network_bonus');handleClose()}}>Level Network Bonus </p>
-                  <p className='acc_links' onClick={() => {history('/matrix_residuals_1');handleClose()}}>Matrix Residuals 1</p>
-                  <p className='acc_links' onClick={() => {history('/matrix_residuals_2');handleClose()}}>Matrix Residuals 2</p>
-                  <p className='acc_links' onClick={() => {history('/Weekly_yield');handleClose()}}>Weekly Yield</p>
+                            {/* <p className='acc_links' onClick={() => {history('/main_draaa/diect_icome');handleClose()}}>Direct Income</p> */}
+                            {/* <p className='acc_links' onClick={() => {history('/main_draaa/roi_icome');handleClose()}}>Roi Income</p> */}
+                            <p className='acc_links' onClick={() => {history('/main_draaa/refferal_bonus');handleClose()}}>Referral Bonus </p>
+                  <p className='acc_links' onClick={() => {history('/main_draaa/network_bonus');handleClose()}}>Network Bonus </p>
+                  <p className='acc_links' onClick={() => {history('/main_draaa/level_network_bonus');handleClose()}}>Level Network Bonus </p>
+                  <p className='acc_links' onClick={() => {history('/main_draaa/matrix_residuals_1');handleClose()}}>Matrix Residuals 1</p>
+                  <p className='acc_links' onClick={() => {history('/main_draaa/matrix_residuals_2');handleClose()}}>Matrix Residuals 2</p>
+                  <p className='acc_links' onClick={() => {history('/main_draaa/Weekly_yield');handleClose()}}>Weekly Yield</p>
                           
 
                           </div>
@@ -288,9 +289,9 @@ function Main_dra({ ...props }) {
                         <Accordion.Body className='' >
                           <div className='' >
 
-                            <p className='acc_links' onClick={() => {history('/with_drawal');handleClose()}}> Withdrawal</p>
-                            <p className='acc_links' onClick={() => {history('/Registration_withDrawal_history');handleClose()}}>Registration Withdrawal <br /> History</p>
-                            <p className='acc_links' onClick={() => {history('/withDrawal');handleClose()}}>Activation Withdrawal </p>
+                            <p className='acc_links' onClick={() => {history('/main_draaa/with_drawal');handleClose()}}> Withdrawal</p>
+                            <p className='acc_links' onClick={() => {history('/main_draaa/Registration_withDrawal_history');handleClose()}}>Registration Withdrawal <br /> History</p>
+                            <p className='acc_links' onClick={() => {history('/main_draaa/withDrawal');handleClose()}}>Activation Withdrawal </p>
                             <p className='acc_links' onClick={() => {history('acc_withDrawal_history');handleClose()}}>Activation Withdrawal <br /> History</p>
 
                           </div>
@@ -313,14 +314,14 @@ function Main_dra({ ...props }) {
                         <Accordion.Body className='' >
                           <div className='' >
 
-                            <p className='acc_links' onClick={() => {history('/Reg_rewarad');handleClose()}}>Registration Reward</p>
-                            <p className='acc_links' onClick={() => {history('/Activation_reward');handleClose()}}>Activation Reward</p>
-                            <p className='acc_links' onClick={() => {history('/Daliy_yield');handleClose()}}>Daily Yield</p>
-                            <p className='acc_links' onClick={() => {history('/refferal_daliy_income');handleClose()}}>Refferal Daily yield <br /> Booster</p>
-                            <p className='acc_links' onClick={() => {history('/level_reward');handleClose()}}>Level Reward</p>
-                            <p className='acc_links' onClick={() => {history('/matching_reward');handleClose()}}>Matching Reward</p>
-                            <p className='acc_links' onClick={() => {history('/dividend_reward');handleClose()}}>Dividend Reward</p>
-                            <p className='acc_links' onClick={() => {history('/Rank_Achievers');handleClose()}}>Rank Achievers Yield</p>
+                            <p className='acc_links' onClick={() => {history('/main_draaa/Reg_rewarad');handleClose()}}>Registration Reward</p>
+                            <p className='acc_links' onClick={() => {history('/main_draaa/Activation_reward');handleClose()}}>Activation Reward</p>
+                            <p className='acc_links' onClick={() => {history('/main_draaa/Daliy_yield');handleClose()}}>Daily Yield</p>
+                            <p className='acc_links' onClick={() => {history('/main_draaa/refferal_daliy_income');handleClose()}}>Refferal Daily yield <br /> Booster</p>
+                            <p className='acc_links' onClick={() => {history('/main_draaa/level_reward');handleClose()}}>Level Reward</p>
+                            <p className='acc_links' onClick={() => {history('/main_draaa/matching_reward');handleClose()}}>Matching Reward</p>
+                            <p className='acc_links' onClick={() => {history('/main_draaa/dividend_reward');handleClose()}}>Dividend Reward</p>
+                            <p className='acc_links' onClick={() => {history('/main_draaa/Rank_Achievers');handleClose()}}>Rank Achievers Yield</p>
 
 
                           </div>
@@ -340,11 +341,11 @@ function Main_dra({ ...props }) {
                         <Accordion.Body className='' >
                           <div className='' >
 
-                            <p className='acc_links' onClick={() => {history('/My_Refferal');handleClose()}}>My Refferal</p>
-                            <p className='acc_links' onClick={() => {history('/Direct_leg_business');handleClose()}}>Direct Leg Business</p>
-                            <p className='acc_links' onClick={() => {history('/Level_details_team');handleClose()}}>Level Details</p>
-                            <p className='acc_links' onClick={() => {history('/Matching_tree');handleClose()}}>Network View</p>
-                            <p className='acc_links' onClick={() => {history('/My_Team');handleClose()}}>My Team</p>
+                            <p className='acc_links' onClick={() => {history('/main_draaa/My_Refferal');handleClose()}}>My Refferal</p>
+                            <p className='acc_links' onClick={() => {history('/main_draaa/Direct_leg_business');handleClose()}}>Direct Leg Business</p>
+                            <p className='acc_links' onClick={() => {history('/main_draaa/Level_details_team');handleClose()}}>Level Details</p>
+                            <p className='acc_links' onClick={() => {history('/main_draaa/Matching_tree');handleClose()}}>Network View</p>
+                            <p className='acc_links' onClick={() => {history('/main_draaa/My_Team');handleClose()}}>My Team</p>
 
                           </div>
 
@@ -365,8 +366,8 @@ function Main_dra({ ...props }) {
                         <Accordion.Body className=''  >
                           <div className='' >
 
-                            <p className='acc_links' onClick={() => {history('/self_adress');handleClose()}}>Self Address</p>
-                            <p className='acc_links' onClick={() => {history('/contract_adress');handleClose()}}>Contract Address</p>
+                            <p className='acc_links' onClick={() => {history('/main_draaa/self_adress');handleClose()}}>Self Address</p>
+                            <p className='acc_links' onClick={() => {history('/main_draaa/contract_adress');handleClose()}}>Contract Address</p>
 
                           </div>
 
@@ -414,7 +415,7 @@ function Main_dra({ ...props }) {
               <Accordion.Body className='' style={{ display: !open ? 'none' : 'block' }}>
                 <div className='' onClick={handleDrawerOpen}>
 
-                  <p className='acc_links' onClick={() => history('/')}>DashBoard</p>
+                  <p className='acc_links' onClick={() => history('/main_draaa')}>DashBoard</p>
 
                 </div>
 
@@ -444,7 +445,7 @@ function Main_dra({ ...props }) {
             
                   <p className='acc_links' onClick={() => history('/main_draaa/activate')}>Activate/update</p>
                 
-                  <p className='acc_links' onClick={() => history('/activate_history')}>Activate History</p>
+                  <p className='acc_links' onClick={() => history('/main_draaa/activate_history')}>Activate History</p>
                 </div>
 
               </Accordion.Body>
@@ -466,14 +467,14 @@ function Main_dra({ ...props }) {
               <Accordion.Body className=' ' style={{ display: !open ? 'none' : 'block' }}>
                 <div className='text-start' onClick={handleDrawerOpen}>
                 
-                  {/* <p className='acc_links' onClick={() => history('/diect_icome')}>Direct Income</p> */}
-                  {/* <p className='acc_links' onClick={() => history('/roi_icome')}>Roi Income</p> */}
-                  <p className='acc_links' onClick={() => history('/refferal_bonus')}>Referral Bonus </p>
-                  <p className='acc_links' onClick={() => history('/network_bonus')}>Network Bonus </p>
-                  <p className='acc_links' onClick={() => history('/level_network_bonus')}>Level Network Bonus </p>
-                  <p className='acc_links' onClick={() => history('/matrix_residuals_1')}>Matrix Residuals 1</p>
-                  <p className='acc_links' onClick={() => history('/matrix_residuals_2')}>Matrix Residuals 2</p>
-                  <p className='acc_links' onClick={() => history('/Weekly_yield')}>Weekly Yield</p>
+                  {/* <p className='acc_links' onClick={() => history('/main_draaa/diect_icome')}>Direct Income</p> */}
+                  {/* <p className='acc_links' onClick={() => history('/main_draaa/roi_icome')}>Roi Income</p> */}
+                  <p className='acc_links' onClick={() => history('/main_draaa/refferal_bonus')}>Referral Bonus </p>
+                  <p className='acc_links' onClick={() => history('/main_draaa/network_bonus')}>Network Bonus </p>
+                  <p className='acc_links' onClick={() => history('/main_draaa/level_network_bonus')}>Level Network Bonus </p>
+                  <p className='acc_links' onClick={() => history('/main_draaa/matrix_residuals_1')}>Matrix Residuals 1</p>
+                  <p className='acc_links' onClick={() => history('/main_draaa/matrix_residuals_2')}>Matrix Residuals 2</p>
+                  <p className='acc_links' onClick={() => history('/main_draaa/Weekly_yield')}>Weekly Yield</p>
                 
                 </div>
 
@@ -493,9 +494,9 @@ function Main_dra({ ...props }) {
               <Accordion.Body className='' style={{ display: !open ? 'none' : 'block' }} >
                 <div className='' onClick={handleDrawerOpen}>
                
-                  <p className='acc_links' onClick={() => history('/with_drawal')}> Withdrawal</p>
-                  <p className='acc_links' onClick={() => history('/Registration_withDrawal_history')}> Withdrawal  History</p>
-                  {/* <p className='acc_links' onClick={() => history('/withDrawal')}>Activation Withdrawal </p> */}
+                  <p className='acc_links' onClick={() => history('/main_draaa/with_drawal')}> Withdrawal</p>
+                  <p className='acc_links' onClick={() => history('/main_draaa/Registration_withDrawal_history')}> Withdrawal  History</p>
+                  {/* <p className='acc_links' onClick={() => history('/main_draaa/withDrawal')}>Activation Withdrawal </p> */}
                   {/* <p className='acc_links' onClick={() => history('acc_withDrawal_history')}>Activation Withdrawal <br /> History</p> */}
                  
                 </div>
@@ -518,14 +519,14 @@ function Main_dra({ ...props }) {
               <Accordion.Body className='' style={{ display: !open ? 'none' : 'block' }}>
                 <div className='' onClick={handleDrawerOpen}>
                 
-                  <p className='acc_links' onClick={() => history('/Reg_rewarad')}>Registration Reward</p>
-                  <p className='acc_links' onClick={() => history('/Activation_reward')}>Activation Reward</p>
-                  <p className='acc_links' onClick={() => history('/Daliy_yield')}>Daily Yield</p>
-                  <p className='acc_links' onClick={() => history('/refferal_daliy_income')}>Refferal Daily yield <br /> Booster</p>
-                  <p className='acc_links' onClick={() => history('/level_reward')}>Level Reward</p>
-                  <p className='acc_links' onClick={() => history('/matching_reward')}>Matching Reward</p>
-                  <p className='acc_links' onClick={() => history('/dividend_reward')}>Dividend Reward</p>
-                  <p className='acc_links' onClick={() => history('/Rank_Achievers')}>Rank Achievers Yield</p>
+                  <p className='acc_links' onClick={() => history('/main_draaa/Reg_rewarad')}>Registration Reward</p>
+                  <p className='acc_links' onClick={() => history('/main_draaa/Activation_reward')}>Activation Reward</p>
+                  <p className='acc_links' onClick={() => history('/main_draaa/Daliy_yield')}>Daily Yield</p>
+                  <p className='acc_links' onClick={() => history('/main_draaa/refferal_daliy_income')}>Refferal Daily yield <br /> Booster</p>
+                  <p className='acc_links' onClick={() => history('/main_draaa/level_reward')}>Level Reward</p>
+                  <p className='acc_links' onClick={() => history('/main_draaa/matching_reward')}>Matching Reward</p>
+                  <p className='acc_links' onClick={() => history('/main_draaa/dividend_reward')}>Dividend Reward</p>
+                  <p className='acc_links' onClick={() => history('/main_draaa/Rank_Achievers')}>Rank Achievers Yield</p>
 
                  
                 </div>
@@ -545,11 +546,11 @@ function Main_dra({ ...props }) {
               <Accordion.Body className='' style={{ display: !open ? 'none' : 'block' }}>
                 <div className='' onClick={handleDrawerOpen}>
             
-                  <p className='acc_links' onClick={() => history('/My_Refferal')}>My Refferal</p>
-                  <p className='acc_links' onClick={() => history('/Direct_leg_business')}>Direct Leg Business</p>
-                  <p className='acc_links' onClick={() => history('/Level_details_team')}>Level Details</p>
-                  <p className='acc_links' onClick={() => history('/Matching_tree')}>Network View</p>
-                  <p className='acc_links' onClick={() => history('/My_Team')}>My Team</p>
+                  <p className='acc_links' onClick={() => history('/main_draaa/My_Refferal')}>My Refferal</p>
+                  <p className='acc_links' onClick={() => history('/main_draaa/Direct_leg_business')}>Direct Leg Business</p>
+                  <p className='acc_links' onClick={() => history('/main_draaa/Level_details_team')}>Level Details</p>
+                  <p className='acc_links' onClick={() => history('/main_draaa/Matching_tree')}>Network View</p>
+                  <p className='acc_links' onClick={() => history('/main_draaa/My_Team')}>My Team</p>
 
                 </div>
 
@@ -570,8 +571,8 @@ function Main_dra({ ...props }) {
               <Accordion.Body className='' style={{ display: !open ? 'none' : 'block' }}>
                 <div className='' onClick={handleDrawerOpen}>
                 
-                  <p className='acc_links' onClick={() => history('/self_adress')}>Self Address</p>
-                  <p className='acc_links' onClick={() => history('/contract_adress')}>Contract Address</p>
+                  <p className='acc_links' onClick={() => history('/main_draaa/self_adress')}>Self Address</p>
+                  <p className='acc_links' onClick={() => history('/main_draaa/contract_adress')}>Contract Address</p>
                 
                 </div>
 

@@ -1,5 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import logo from "../../Components/Assets/logo.png"
+
 
 function Home_login_page() {
   return (
@@ -40,7 +42,7 @@ function Home_login_page() {
                     Remember to authorize with the correct Wallet address.
                   </p>
                   <div class="space_set"></div>
-                  <div class="subtitle text-white">View an Account</div>
+                  <div class="subtitle clr_white">View an Account</div>
                   <br />
                   <form>
                     <div class="form-row">
@@ -56,13 +58,14 @@ function Home_login_page() {
                       Enter the account id or wusdt address
                       </p>
                     </div>
-                    <div class="form-row">
-                      <button
-                        class="btn btn-primary py_5 set_z_index react_button_register d-block mx-auto "
+                    <div class="form-row login_button">
+                  <Link to='/main_draaa'>    <button
+                        class="btn btn-primary py_5 set_z_index react_button_register login_button "
                         id="myBtn"
                       >
                         Login
                       </button>
+                      </Link>
 
                       {/* <button type="button" class="btn   react_button_register" id="btnlogins" value="Connect to Wallet" onclick="idoraddresslogin()"> Connect to Wallet</button> */}
                     </div>
