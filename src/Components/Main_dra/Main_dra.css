@@ -236,10 +236,7 @@ color: #B0bbc7 !important;
     width: 200px !important;
 }
 
-.react_tree{
-    overflow-x: scroll !important;
-    width: 400px !important;
-}
+
 .responsi_alignment_iphone{
     text-align: left !important;
 }
@@ -261,4 +258,18 @@ color: #B0bbc7 !important;
         display: none;
     }
     
+}
+
+@media (min-width:0px) and (max-width:325px){
+    .react_tree{
+        width: 300px !important;
+    }
+}
+
+
+@media (min-width:330px) and (max-width:600px){
+    .react_tree{
+        overflow-x: scroll !important;
+        width: 350px !important;
+    }
 }

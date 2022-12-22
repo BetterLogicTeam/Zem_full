@@ -70,9 +70,6 @@ function My_team() {
                                                     </select>
                                                 </div>
                                                
-                                                        <Table
-                                               data={reward_income.rows}
-                                               columns={reward_income.cols}/>
 
                                                 </div>
                                                     <br/><br/>
@@ -82,6 +79,9 @@ function My_team() {
                                            
                                         </div>
                                     </div>
+                                                        <Table
+                                               data={reward_income.rows}
+                                               columns={reward_income.cols}/>
                                      
                                 </div>
                             </div>

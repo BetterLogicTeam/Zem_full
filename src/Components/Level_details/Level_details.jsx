@@ -64,10 +64,6 @@ function Level_details() {
                                                         </div>
 
 
-                                                        <Table
-                                             data={reward_income.rows}
-                                             columns={reward_income.cols}
-                                             className='mt-5 p-0'/>
                                                
                                                
                                                
@@ -78,6 +74,10 @@ function Level_details() {
                                             
                                        
                                         </div>
+                                                        <Table
+                                             data={reward_income.rows}
+                                             columns={reward_income.cols}
+                                             className='mt-5 p-0'/>
                                     </div>
                                      
                                 </div>

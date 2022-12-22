@@ -48,7 +48,7 @@ function My_refferal() {
                                 <div id="myAssets_wrapper" className="dataTables_wrapper dt-bootstrap5 no-footer">
                                    <div className="row m-0">
                                         <div className="col-sm-12 p-0">
-                                            <div className="row mt-3" style={{marginLeft: '10px'}}>
+                                            <div className="row mt-3 m-0" >
                                                
                                                 <div className="col-md-2 text-start">
                                                     <label className='responsive_lebal'>Position</label>
@@ -70,15 +70,16 @@ function My_refferal() {
                                                
                                                 </div>
                                                     <br/><br/>
-                                                    <Table  className='network_veiw'
+                                                   
+                                             
+                                        </div>
+                                        
+                                           
+                                    </div>
+                                    <Table  className=''
                                              data={reward_income.rows}
                                              columns={reward_income.cols}
                                              />
-                                             
-                                        </div>
-                                           
-                                    </div>
-                                     
                                 </div>
                             </div>
                         </div>
