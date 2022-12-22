@@ -2873,8 +2873,9 @@ body {
 
 #member-layout.page-container,#root {
     position: relative;
-    display: flex;
-    justify-content: flex-start;
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    justify-content: center !important;
     min-height: 100%;
     align-items: stretch;
     width: 100%

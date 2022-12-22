@@ -1211,15 +1211,15 @@ address {
 	background: rgba(90, 134, 255, .5)
 }
 
-.accordion {
+/* .accordion {
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
 	background: #0c0c25;
 	border-radius: 15px
-}
+} */
 
-@supports ((-webkit-backdrop-filter:blur(15px)) or (backdrop-filter:blur(15px))) {
+/* @supports ((-webkit-backdrop-filter:blur(15px)) or (backdrop-filter:blur(15px))) {
 	.accordion {
 		background: rgba(12, 12, 37, .7);
 		-webkit-backdrop-filter: blur(15px);
@@ -1231,13 +1231,13 @@ address {
 	background: rgba(12, 12, 37, .7);
 	-webkit-backdrop-filter: blur(15px);
 	backdrop-filter: blur(15px)
-}
+} */
 
 .accordion.active .accordion__top::after {
 	background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzJfMTAxOCkiPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTAgMTJDMCA4LjgxNzQgMS4yNjQyOCA1Ljc2NTE2IDMuNTE0NzIgMy41MTQ3MkM1Ljc2NTE2IDEuMjY0MjggOC44MTc0IDAgMTIgMEMxNS4xODI2IDAgMTguMjM0OCAxLjI2NDI4IDIwLjQ4NTMgMy41MTQ3MkMyMi43MzU3IDUuNzY1MTYgMjQgOC44MTc0IDI0IDEyQzI0IDE1LjE4MjYgMjIuNzM1NyAxOC4yMzQ4IDIwLjQ4NTMgMjAuNDg1M0MxOC4yMzQ4IDIyLjczNTcgMTUuMTgyNiAyNCAxMiAyNEM4LjgxNzQgMjQgNS43NjUxNiAyMi43MzU3IDMuNTE0NzIgMjAuNDg1M0MxLjI2NDI4IDE4LjIzNDggMCAxNS4xODI2IDAgMTJIMFpNNi40IDEyLjhIMTcuNlYxMS4ySDYuNFYxMi44WiIgZmlsbD0iI0Y0MUZGRSIvPgo8L2c+CjxkZWZzPgo8Y2xpcFBhdGggaWQ9ImNsaXAwXzJfMTAxOCI+CjxyZWN0IHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgZmlsbD0id2hpdGUiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K)
 }
 
-.accordion::before {
+/* .accordion::before {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1253,7 +1253,7 @@ address {
 	-webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
 	-webkit-mask-composite: xor;
 	mask-composite: exclude
-}
+} */
 
 .accordion__top {
 	display: -webkit-box;
@@ -5296,10 +5296,8 @@ address {
 }
 
 
-.accordion {
-	/*background-color: #eee;
-	color: #444;
-	cursor: pointer;*/
+/* .accordion {
+
 	padding: 18px;
 	width: 100%;
 	border: none;
@@ -5307,7 +5305,7 @@ address {
 	outline: none;
 	font-size: 15px;
 	transition: 0.4s;
-}
+} */
 
 
 

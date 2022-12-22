@@ -62,6 +62,7 @@ import Level_network_bonus from '../Level_network_bonus/Level_network_bonus';
 import Matrix_residual_1 from '../Matrix_residual_1/Matrix_residual_1';
 import Matrix_residual_2 from '../Matrix_residual_2/Matrix_residual_2';
 import Weekly_yield from '../Weekly_yield/Weekly_yield';
+import './style.css'
 
 // import logo from "./"
 
@@ -234,7 +235,7 @@ function Main_dra({ ...props }) {
                         <Accordion.Body className=''  >
                           <div className='' >
 
-                            <p className='acc_links' onClick={() => {history('/activate');handleClose()}}>Activate/update</p>
+                            <p className='acc_links' onClick={() => {history('/main_draaa/activate');handleClose()}}>Activate/update</p>
 
 
                             <p className='acc_links' onClick={() => {history('/activate_history');handleClose()}}>Activate History</p>
@@ -441,7 +442,7 @@ function Main_dra({ ...props }) {
               <Accordion.Body className='' style={{ display: !open ? 'none' : 'block' }}>
                 <div className='' onClick={handleDrawerOpen}>
             
-                  <p className='acc_links' onClick={() => history('/activate')}>Activate/update</p>
+                  <p className='acc_links' onClick={() => history('/main_draaa/activate')}>Activate/update</p>
                 
                   <p className='acc_links' onClick={() => history('/activate_history')}>Activate History</p>
                 </div>
