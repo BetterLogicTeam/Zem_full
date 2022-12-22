@@ -146,6 +146,14 @@ color: #B0bbc7 !important;
     color:rgba(32, 255, 251) !important ;
 }
 
+.react_reset_button{
+    background: #183a42 !important;
+    border: 1px solid #377c39 !important;
+    border-radius: 5px !important;
+    color: #fff!important;
+    cursor: pointer !important;
+}
+
 
 
 

@@ -12,7 +12,7 @@ const Table = ({ columns, data }) => {
                   
 
 
-                    <div className="row">
+                    <div className="row m-0">
                         <div className="col-xl-12 col-md-12">
                             <div className="card">
                                 <div className="card-body">

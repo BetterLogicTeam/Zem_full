@@ -366,3 +366,16 @@
         margin-left: -100px !important;
     }
 }
+
+
+
+@media  (min-width:330px) and (max-width:380px){
+    .header__logo{
+        margin-left: -172px !important;
+    }
+}
+@media  (min-width:385px) and (max-width:480px){
+    .header__logo{
+        margin-left: -185px !important;
+    }
+}
