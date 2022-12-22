@@ -369,12 +369,12 @@
 
 
 
-@media  (min-width:330px) and (max-width:380px){
+@media (min-width:330px) and (max-width:390px){
     .header__logo{
         margin-left: -172px !important;
     }
 }
-@media  (min-width:385px) and (max-width:480px){
+@media  (min-width:391px) and (max-width:480px){
     .header__logo{
         margin-left: -185px !important;
     }
