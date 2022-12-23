@@ -9,20 +9,20 @@ function Nft_adress() {
         <div className=" container-fluid m-0 p-0">
             {/* <!-- breadcrumb --> */}
             <div className="breadcrumb-header justify-content-between">
-                <div className="left-content respon_aligment">
+                <div className="left-content conttract_ps">
                     <span className="main-content-title mg-b-0 mg-b-lg-1">Contract Address</span>
                 </div>
                 <div className="justify-content-center mt-2">
                     <ol className="breadcrumb breadcrumb-style3 Br_ps">
-                        <li className="breadcrumb-item tx-15">
+                        <li className="breadcrumb-item tx-15 conttract_psa">
                             <a href="javascript:void(0)" className='header_breadcrum' >Address </a>
                         </li>
-                        <li className="breadcrumb-item active g_clr" aria-current="page">Contract Address</li>
+                        <li className="breadcrumb-item active g_clr " aria-current="page">Contract Address</li>
                     </ol>
                 </div>
             </div>
             {/* <!-- /breadcrumb --> */}
-            <h5 className="mt-5 text-clr text-start text_responsive  text-truncate   px-1 px-md-0  "> Address : <a href="https://tronscan.org/#/contract/TW4FkjhirQG3ZPi8neDBtVmiyL6uMULVse" className="Txn_here react_txn_here " target="_blank">TW4FkjhirQG3ZPi8neDBtVmiyL6uMULVse</a> 
+            <h5 className="mt-5 text-clr text-start text_responsive conttract_psa text-truncate    px-md-0  "> Address : <a href="https://tronscan.org/#/contract/TW4FkjhirQG3ZPi8neDBtVmiyL6uMULVse" className="Txn_here react_txn_here " target="_blank">TW4FkjhirQG3ZPi8neDBtVmiyL6uMULVse</a> 
              </h5>
             {/* <!-- row closed --> */}
           </div>

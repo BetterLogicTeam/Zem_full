@@ -43,7 +43,7 @@ function My_refferal() {
 
                     <div className="row m-0">
                         <div className="col-xl-12 p-0 m-0 ">
-                            <div className="card m-0 there mb-3 ">
+                            <div className="card  there reponsiv_card_drawer_table ">
                                 <div className="card-body">
                                     <div className="">
                                         <div id="myAssets_wrapper" className="dataTables_wrapper dt-bootstrap5 no-footer">

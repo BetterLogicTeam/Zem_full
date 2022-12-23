@@ -75,12 +75,12 @@ function Home_landing() {
                                         <span>Plan</span>
                                     </a>
                                 </li>
-                              <Link to='/main_draaa'  class='main_draa_link'>  <li>
+                                <li>
                                     <a href="#faq" data-href="#faq">
                                         <span>Faq</span>
                                     </a>
                                 </li>
-                                </Link>
+                             
 
                             <Link to ='/home_login_page ' class='main_login_link'>    <li class="header__btns"> 
                                      <a class="header__btn button button--bordered-light" href="login.html">Login</a>

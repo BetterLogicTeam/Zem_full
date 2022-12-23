@@ -3,9 +3,9 @@
    function Self_adress() {
      return (
        <div style={{height:"100vh"}}>
-            <div className="main-content m-0 app-content">
+            <div className=" m-0 app-content">
         {/* <!-- container --> */}
-        <div className="main-container m-0 container-fluid">
+        <div className=" m-0 container-fluid">
             {/* <!-- breadcrumb --> */}
             <div className="breadcrumb-header justify-content-between">
                 <div className="left-content respon_aligment">

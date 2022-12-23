@@ -187,6 +187,10 @@ color: #B0bbc7 !important;
     .fullscreen{
         display: none;
     }
+
+    .reponsiv_card_drawer_table{
+        margin-bottom: 20px !important;
+    }
 .moblie_view{
     margin-top: 20px !important;
 }
@@ -215,6 +219,14 @@ color: #B0bbc7 !important;
     }
     .main_table_react{
         overflow-x: scroll !important;
+    }
+    .conttract_psa{
+        padding-left: 15px !important;
+    }
+
+    .conttract_ps{
+        padding-left: 20px !important;
+        text-align: left;
     }
     .css-zxdg2z{
         padding: 0px !important;
